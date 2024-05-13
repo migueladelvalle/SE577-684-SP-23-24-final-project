@@ -41,8 +41,8 @@ Our Project will use a fully managed version of TeamCity CI/CD.
 
 ### Rationale
 
-1. **Maintenance**: Because the team is smaller, we required a highly scalable solution with low maintenance overhead. A
-   fully managed version of the TeamCity cloud eliminates the need to maintain our infrastructure for CI/CD.
+1. **Maintenance**: Because the team is more minor, we require a highly scalable solution with low maintenance overhead.
+   A fully managed version of the TeamCity cloud eliminates the need to maintain our infrastructure for CI/CD.
 2. **Scalability**: TeamCity features distributed builds and advanced parallelism features, such as build chains and
    dependencies. It also has many options for scaling both horizontally and vertically.
 3. **Support**: TeamCity has a large, active community. JetBrains provides customer support and regular updates to the
@@ -51,14 +51,14 @@ Our Project will use a fully managed version of TeamCity CI/CD.
 
 ### Tradeoffs
 
-1. **Cost**: TeamCity is costly compared to other options on this list. This could be a limiting factor if we choose to
-   onboard new developers onto the project
+1. **Cost**: TeamCity is costly compared to other options on this list. This could be limiting if we want to expand
+   operations and onboard new developers to the project.
 2. **Complexity**: There is a learning curve for using advanced features like build chains, templates, and custom
    configurations.
 
 ### Future Considerations
 
 1. Over time, we may move to a self-hosted version of TeamCity to save on licensing costs. This will add maintenance
-   overhead as DevOps teams must manage the infrastructure. However, our North Star vision is to maintain a large,
+   overhead as DevOps teams must manage the infrastructure. However, our North Star vision is to maintain an extensive,
    distributed network for aggregating medical data, requiring a large team. At that time, licensing fees may surpass
    the cost of self-hosting and maintenance. 
