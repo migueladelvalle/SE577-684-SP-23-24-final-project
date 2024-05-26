@@ -1,1 +1,225 @@
-<?xml version="1.0" encoding="us-ascii" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="397px" preserveAspectRatio="none" style="width:1051px;height:397px;background:#FFFFFF;" version="1.1" viewBox="0 0 1051 397" width="1051px" zoomAndPan="magnify"><defs/><g><!--cluster datamarket--><g id="cluster_datamarket"><rect fill="none" height="119.98" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="469" x="576.5" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="98" x="762" y="24.4688">Data Market</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="776.5" y="39.4453">[Container]</text></g><!--entity dicom--><g id="elem_dicom"><rect fill="#438DD5" height="52.9766" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="209" x="593" y="58"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="603" y="83.4688">Dicom</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="656" y="83.4688">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="661" y="83.4688">Document</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="746" y="83.4688">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="41" x="751" y="83.4688">Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="39" x="622" y="98.4453">[Stores</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="661" y="98.4453">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="665" y="98.4453">Dicom</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="701" y="98.4453">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="68" x="705" y="98.4453">Documents]</text></g><!--entity cda--><g id="elem_cda"><rect fill="#438DD5" height="52.9766" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="192" x="837.5" y="58"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="36" x="847.5" y="83.4688">CDA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="883.5" y="83.4688">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="888.5" y="83.4688">Document</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="973.5" y="83.4688">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="41" x="978.5" y="83.4688">Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="39" x="863.5" y="98.4453">[Stores</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="902.5" y="98.4453">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="25" x="906.5" y="98.4453">CDA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="931.5" y="98.4453">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="68" x="935.5" y="98.4453">Documents]</text></g><!--entity back--><g id="elem_back"><a href="./ContextDiagram.puml" target="_top" title="./ContextDiagram.puml" xlink:actuate="onRequest" xlink:href="./ContextDiagram.puml" xlink:show="new" xlink:title="./ContextDiagram.puml" xlink:type="simple"><rect fill="#438DD5" height="38.8438" rx="2.5" ry="2.5" style="stroke:#0FEFE9;stroke-width:8.0;" width="151" x="7" y="65.07"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="38" x="17" y="90.5388">Back</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="55" y="90.5388">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="21" x="60" y="90.5388">To</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="81" y="90.5388">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="62" x="86" y="90.5388">Context</text></a></g><!--entity ingestion--><g id="elem_ingestion"><a href="./IngestPlatformContainer.puml" target="_top" title="./IngestPlatformContainer.puml" xlink:actuate="onRequest" xlink:href="./IngestPlatformContainer.puml" xlink:show="new" xlink:title="./IngestPlatformContainer.puml" xlink:type="simple"><rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;" width="146" x="193.5" y="65.07"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="51" x="203.5" y="90.5388">Ingest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="254.5" y="90.5388">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="70" x="259.5" y="90.5388">Platform</text></a></g><!--entity ampi--><g id="elem_ampi"><a href="./AMPIContainer.puml" target="_top" title="./AMPIContainer.puml" xlink:actuate="onRequest" xlink:href="./AMPIContainer.puml" xlink:show="new" xlink:title="./AMPIContainer.puml" xlink:type="simple"><rect fill="#1168BD" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;" width="183" x="375" y="55.65"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="385" y="81.1188">Anonymized</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="488" y="81.1188">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="55" x="493" y="81.1188">Master</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="56" x="413.5" y="99.9625">Person</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="469.5" y="99.9625">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="45" x="474.5" y="99.9625">Index</text></a></g><!--entity website--><g id="elem_website"><a href="./TesselateIOContainer.puml" target="_top" title="./TesselateIOContainer.puml" xlink:actuate="onRequest" xlink:href="./TesselateIOContainer.puml" xlink:show="new" xlink:title="./TesselateIOContainer.puml" xlink:type="simple"><rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;" width="110" x="27.5" y="182.75"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="90" x="37.5" y="208.2188">tesselate.io</text></a></g><!--entity research_db--><g id="elem_research_db"><rect fill="#999999" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="207" x="173" y="173.33"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="183" y="198.7988">External</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="249" y="198.7988">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="74" x="254" y="198.7988">Research</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="5" x="328" y="198.7988">&#160;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="37" x="333" y="198.7988">Data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="35" x="259" y="217.6425">Sink</text></g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="886.5" y="268.5527">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="937.5" y="268.5527">&#160;</text><rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="271.5058"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="890.5" y="285.0409">person</text><rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="287.9941"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="890.5" y="301.5292">system</text><rect fill="#438DD5" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="304.4823"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="890.5" y="318.0175">container</text><rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="320.9706"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="890.5" y="334.5058">external person</text><rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="337.4589"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="890.5" y="350.9941">external system</text><rect fill="#B3B3B3" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="353.9472"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="890.5" y="367.4823">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="255.0175" y2="255.0175"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="271.5058" y2="271.5058"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="287.9941" y2="287.9941"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="304.4823" y2="304.4823"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="320.9706" y2="320.9706"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="337.4589" y2="337.4589"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="353.9472" y2="353.9472"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="370.4355" y2="370.4355"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="886.5" y1="255.0175" y2="370.4355"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1020.5" x2="1020.5" y1="255.0175" y2="370.4355"/><!--SRC=[bPDTRvim58Rl-HKUsWMHKfYwNgoJUa53j26HDLgefbqXWmzWnH-HRPfaLVzx3vIqIQHEAZUsptlylCS7-nDNbUWOaDQvZVqUHOPkmuQxjYix2wRIoe5oOQLbj15KkKwA2-kOu6KqkxfOzg7xHHP9QXqO31Kpt46v0XDkCDVpilZltNrU_4dpdqKs_p7_bGGJpuiPcmkGYCvf4_X2Ry5ay00YushjJyddKXi6PgQ5DZV-jw-NLwpqfsCqRtcrLc0jAlxadDNoflqVx4iDDLpNzNiux_K4GKchzPJujpYGN9DUW9thYGB9DtuOZQ64qyPGEHovbnrja7PU2R9NU-oJ3BXgm3gk5TBJOKwmbQxMHc9P1_YBSX1E6_lcSjQxoS63oWr7VAoqsal-3nXP33-9BC5OhKYg6EoEtEB5ClsennPAonsWZSF-0LOA8TT7qFmGJky-o2xcEnSOi41DrHQiH0-CW55KaDzZc2JKKR8QU_jgKDpgJZ5gzW53NLAp1eVRX-J5i49tFs-1b6CYqJLnkBQ3jJzvz0X-RnU1SNm0FQ8VIQAhhhzkPEMqWPurJ2mvbIqMTOgf6CNaMHA_ZpWMUu3tv3q3]--></g></svg>
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
+     height="397px" preserveAspectRatio="none" style="width:1051px;height:397px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 1051 397" width="1051px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster datamarket-->
+        <g id="cluster_datamarket">
+            <rect fill="none" height="119.98" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="469" x="576.5" y="7"/>
+            <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="98" x="762" y="24.4688">Data Market
+            </text>
+            <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="69" x="776.5" y="39.4453">[Container]
+            </text>
+        </g><!--entity dicom-->
+        <g id="elem_dicom">
+            <rect fill="#438DD5" height="52.9766" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="209"
+                  x="593" y="58"/>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="53" x="603" y="83.4688">Dicom
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="656" y="83.4688">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="85" x="661" y="83.4688">Document
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="746" y="83.4688">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="41" x="751" y="83.4688">Store
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="622" y="98.4453">[Stores
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="4" x="661" y="98.4453">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="36" x="665" y="98.4453">Dicom
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="4" x="701" y="98.4453">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="68" x="705" y="98.4453">Documents]
+            </text>
+        </g><!--entity cda-->
+        <g id="elem_cda">
+            <rect fill="#438DD5" height="52.9766" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="192"
+                  x="837.5" y="58"/>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="36" x="847.5" y="83.4688">CDA
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="883.5" y="83.4688">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="85" x="888.5" y="83.4688">Document
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="973.5" y="83.4688">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="41" x="978.5" y="83.4688">Store
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="863.5" y="98.4453">[Stores
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="4" x="902.5" y="98.4453">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="25" x="906.5" y="98.4453">CDA
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="4" x="931.5" y="98.4453">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="68" x="935.5" y="98.4453">Documents]
+            </text>
+        </g><!--entity back-->
+        <g id="elem_back">
+            <a href="./ContextDiagram.svg" target="_top" title="./ContextDiagram.svg" xlink:actuate="onRequest"
+               xlink:href="./ContextDiagram.svg" xlink:show="new" xlink:title="./ContextDiagram.svg"
+               xlink:type="simple">
+                <rect fill="#438DD5" height="38.8438" rx="2.5" ry="2.5" style="stroke:#0FEFE9;stroke-width:8.0;"
+                      width="151" x="7" y="65.07"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="38" x="17" y="90.5388">Back
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="55" y="90.5388">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="21" x="60" y="90.5388">To
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="81" y="90.5388">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="62" x="86" y="90.5388">Context
+                </text>
+            </a>
+        </g><!--entity ingestion-->
+        <g id="elem_ingestion">
+            <a href="./IngestPlatformContainer.svg" target="_top" title="./IngestPlatformContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./IngestPlatformContainer.svg" xlink:show="new"
+               xlink:title="./IngestPlatformContainer.svg" xlink:type="simple">
+                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="146" x="193.5" y="65.07"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="51" x="203.5" y="90.5388">Ingest
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="254.5" y="90.5388">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="70" x="259.5" y="90.5388">Platform
+                </text>
+            </a>
+        </g><!--entity ampi-->
+        <g id="elem_ampi">
+            <a href="./AMPIContainer.svg" target="_top" title="./AMPIContainer.svg" xlink:actuate="onRequest"
+               xlink:href="./AMPIContainer.svg" xlink:show="new" xlink:title="./AMPIContainer.svg" xlink:type="simple">
+                <rect fill="#1168BD" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="183" x="375" y="55.65"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="103" x="385" y="81.1188">Anonymized
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="488" y="81.1188">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="55" x="493" y="81.1188">Master
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="56" x="413.5" y="99.9625">Person
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="469.5" y="99.9625">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="45" x="474.5" y="99.9625">Index
+                </text>
+            </a>
+        </g><!--entity website-->
+        <g id="elem_website">
+            <a href="./TesselateIOContainer.svg" target="_top" title="./TesselateIOContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./TesselateIOContainer.svg" xlink:show="new"
+               xlink:title="./TesselateIOContainer.svg" xlink:type="simple">
+                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="110" x="27.5" y="182.75"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="90" x="37.5" y="208.2188">tesselate.io
+                </text>
+            </a>
+        </g><!--entity research_db-->
+        <g id="elem_research_db">
+            <rect fill="#999999" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="207"
+                  x="173" y="173.33"/>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="66" x="183" y="198.7988">External
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="249" y="198.7988">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="74" x="254" y="198.7988">Research
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="328" y="198.7988">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="37" x="333" y="198.7988">Data
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="35" x="259" y="217.6425">Sink
+            </text>
+        </g>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="51" x="886.5" y="268.5527">Legend
+        </text>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="937.5"
+              y="268.5527">&#160;
+        </text>
+        <rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="271.5058"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="890.5"
+              y="285.0409">person
+        </text>
+        <rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="287.9941"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="890.5"
+              y="301.5292">system
+        </text>
+        <rect fill="#438DD5" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="304.4823"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="890.5"
+              y="318.0175">container
+        </text>
+        <rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="320.9706"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="890.5"
+              y="334.5058">external person
+        </text>
+        <rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="337.4589"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="890.5"
+              y="350.9941">external system
+        </text>
+        <rect fill="#B3B3B3" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="886.5" y="353.9472"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="890.5"
+              y="367.4823">external container
+        </text>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="255.0175" y2="255.0175"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="271.5058" y2="271.5058"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="287.9941" y2="287.9941"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="304.4823" y2="304.4823"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="320.9706" y2="320.9706"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="337.4589" y2="337.4589"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="353.9472" y2="353.9472"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="1020.5" y1="370.4355" y2="370.4355"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="886.5" x2="886.5" y1="255.0175" y2="370.4355"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1020.5" x2="1020.5" y1="255.0175"
+              y2="370.4355"/><!--SRC=[bPDTRvim58Rl-HKUsWMHKfYwNgoJUa53j26HDLgefbqXWmzWnH-HRPfaLVzx3vIqIQHEAZUsptlylCS7-nDNbUWOaDQvZVqUHOPkmuQxjYix2wRIoe5oOQLbj15KkKwA2-kOu6KqkxfOzg7xHHP9QXqO31Kpt46v0XDkCDVpilZltNrU_4dpdqKs_p7_bGGJpuiPcmkGYCvf4_X2Ry5ay00YushjJyddKXi6PgQ5DZV-jw-NLwpqfsCqRtcrLc0jAlxadDNoflqVx4iDDLpNzNiux_K4GKchzPJujpYGN9DUW9thYGB9DtuOZQ64qyPGEHovbnrja7PU2R9NU-oJ3BXgm3gk5TBJOKwmbQxMHc9P1_YBSX1E6_lcSjQxoS63oWr7VAoqsal-3nXP33-9BC5OhKYg6EoEtEB5ClsennPAonsWZSF-0LOA8TT7qFmGJky-o2xcEnSOi41DrHQiH0-CW55KaDzZc2JKKR8QU_jgKDpgJZ5gzW53NLAp1eVRX-J5i49tFs-1b6CYqJLnkBQ3jJzvz0X-RnU1SNm0FQ8VIQAhhhzkPEMqWPurJ2mvbIqMTOgf6CNaMHA_ZpWMUu3tv3q3]-->
+    </g>
+</svg>
