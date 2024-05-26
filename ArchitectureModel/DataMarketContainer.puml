@@ -1,5 +1,7 @@
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include ./C4_Container.puml
+
+LAYOUT_LEFT_RIGHT()
 
 LAYOUT_WITH_LEGEND()
 
@@ -13,10 +15,31 @@ System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tag
 System(website, "tesselate.io",$link="./TesselateIOContainer.puml", $tags="lowerLevelLink")
 System_Ext(research_db, "External Research Data Sink")
 
-Container_Boundary(datamarket, "Data Market", "The boundary of the system"){
-    Container(dicom, "Dicom Document Store", "Stores Dicom Documents")
-    Container(cda, "CDA Document Store", "Stores CDA Documents")
-
+Container_Boundary(datamarket, "Data Market - Systems highlighted in purple are clickable links", "The boundary of the system"){
+    ContainerDb(dicom, "Dicom Document Store", "Stores Dicom Documents")
+    ContainerDb(cda, "CDA Document Store", "Stores CDA Documents")
+    Container(search, "Search REST API", "Searches for documents and images")
+    Container(proxy, "router", "Proxies requests to the correct service")
+    Container(gateway, API Gateway, "API Gateway")
+    ContainerDb(elk, "ELK Stack", "Stores logs")
+    Container(slack, "Slack", "Chat Ops")
 }
+
+Rel(gateway, search, "Uses")
+Rel(search, ampi, "Uses")
+Rel(search, dicom, "Uses")
+Rel(search, cda, "Uses")
+Rel(ingestion, proxy, "Sends Data to")
+Rel(proxy, dicom, "Writes Data to")
+Rel(proxy, cda, "Writes Data to")
+Rel(proxy, research_db, "Sends Data to")
+Rel(website, gateway, "Uses")
+Rel(gateway, proxy, "Uses")
+Rel(proxy, elk, "Logs to")
+Rel(search, elk, "Logs to")
+Rel(slack, elk, "uses")
+Rel(website, elk, "Uses")
+
+
 
 @enduml

@@ -1,5 +1,5 @@
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include ./C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
 
@@ -8,6 +8,28 @@ AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
 
 Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
 
-Container_Boundary(website, "Tesselate.io", "The boundary of the system")
+Person_Ext(clinician, "Clinician", "Review/ Comment data")
+Person_Ext(billers, "Hospital Biller","Reviews earnings")
+Person_Ext(researcher, "Researcher", "Uses Website to discover data")
+Person_Ext(reviewer, "Charge Review Specialist", "Uses Website to review usage and invoices")
+System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
+Person(support, "Support", "Supports the website")
+
+Container_Boundary(website, "Tessellate.io - Systems highlighted in purple are clickable links", "The boundary of the system"){
+    Container(billing, "Invoicing UI", "Handles billing and invoicing")
+    Container(query, "Data Discovery and annotation UI", "Handles data discovery")
+    Container(logs, "Kibana", "Handles logs and monitoring")
+}
+
+Rel(clinician, query, "Uses")
+Rel(researcher, query, "Uses")
+Rel(billers, billing, "Uses")
+Rel(reviewer, billing, "Uses")
+Rel(query, datamarket, "Uses")
+Rel(billing, datamarket, "Uses")
+Rel(logs, datamarket, "Uses")
+Rel(support, logs, "Uses")
+
+
 
 @enduml

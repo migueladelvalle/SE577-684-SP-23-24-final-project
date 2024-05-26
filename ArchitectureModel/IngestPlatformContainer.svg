@@ -8,7 +8,8 @@
             <rect fill="none" height="382.06" rx="2.5" ry="2.5"
                   style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="650" x="305.5" y="173.8"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="126" x="567.5" y="191.2687">Ingest Platform
+                  textLength="546" x="357.5" y="191.2687">Ingest Platform - Systems highlighted in purple are clickable
+                links
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
                   textLength="69" x="596" y="206.2453">[Container]
@@ -418,17 +419,21 @@
             </text>
         </g><!--entity datamarket-->
         <g id="elem_datamarket">
-            <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="118"
-                  x="746.5" y="627.28"/>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="756.5" y="652.7488">Data
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="793.5" y="652.7488">&#160;
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="56" x="798.5" y="652.7488">Market
-            </text>
+            <a href="./DataMarketContainer.svg" target="_top" title="./DataMarketContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./DataMarketContainer.svg" xlink:show="new"
+               xlink:title="./DataMarketContainer.svg" xlink:type="simple">
+                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="118" x="746.5" y="627.28"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="37" x="756.5" y="652.7488">Data
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="793.5" y="652.7488">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="56" x="798.5" y="652.7488">Market
+                </text>
+            </a>
         </g><!--entity ampi-->
         <g id="elem_ampi">
             <a href="./AMPIContainer.svg" target="_top" title="./AMPIContainer.svg" xlink:actuate="onRequest"
@@ -837,6 +842,6 @@
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="880.5" x2="1014.5" y1="814.9655" y2="814.9655"/>
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="880.5" x2="880.5" y1="699.5475" y2="814.9655"/>
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1014.5" x2="1014.5" y1="699.5475"
-              y2="814.9655"/><!--SRC=[bLHTRzem57tFh_2YFL29mhHLwZQf3nJ26WdMh51DUq8claai73jod1OsxR_lEWcKf85jJyJtddFkDs-u34N1W2J6PFdduL3Jvq7CJLAiYnnqgAG1QGQXIeUPeD8KgRZC3HDyFHnVNGRMz3YV3LEQ6z1eMesHGRa4FSWGwpYpqO_xn-Ngkx-yMysyBzxNIU_2SKQCUG9Ib5xIkESAzGnw1ayWPbnkt3vvkrQQWHuheVID-_73-oksTlkrTPdmS2CXpz7ZNhIr4XudvyJUHH31foWw9USSAkYjQRZf4_SMVyXI4Uk0hR6A0fLltC6mDaquZJLDovAjsz0OrTgPN3YB7ROfNNbRqqiueFIToZDkg21tlkVQDr1X4kBBIEcK6guayRPXGcKCJNf6mnpnmMYyiBo0XwRGG4OwJFWJbp6Xac72QLf87bP25Rif4oLS8trwvp-G1UWdq5PjYjCaLIeXHLKVYzGg0qtNN72p8m-GgqA7aEz9JL4km2OthNwdow1F9hS7J8zHGrEgDs0GDC47cPUl5mHDCuw-aLHob_AVm11X5um4e7CinPSCjZZ0_HX6yy1lBjxB55gxTJpWrQqg9ADwryEEGMxJySiFWejjx0XiDvO9a7KD92eY1jzvtSjVHzl2iKku1RRNdepHLCeTRAGoMiNg2uMe8NiMzjBsXKHQfOJnA0AD6qtgFcFQXq3V2YYWnrCQsmXpO3XWGNpx9gNFXYW_29P0Ic27GCWeuiQJKHV9cfaA2tjL7Tn4NDjb5TTTN6jEyPpQOIqhqmghoPMkwTvoHeAzhLpawe7TE2c3zQhKReu_lf-VKwW0h-ktfGT7YTXYpyYqU_7RSHv0L0VSDVC5I5QbNmxKAEHOGWUswkCfGdr7fsEquEKj_okw3DsQoAb4ch3wEF-ZpFhF2bS4BwXQLCkf2PNtTDxyG3WRP7yGNSNMlltcT45gNrtSOrwkp96ZyQVL6UDrIjM9TO5BJsiDJ-2E87_DeGblrkBy0G00]-->
+              y2="814.9655"/><!--SRC=[bLHBRzD04BxxLmmMXrGA1G5IuT13cZZ4Ka9DumfnYZRss5vblHkjrwK1yT-PjPqqTfrG3b4yZ- -RzxxYCX9bZ73vTlnnDLRIC2vHNsxBN3ZEVFJZzZvSVVV3sMhkVV6-JWONZZEAOqzWZjA4B1suGlr4FSS757CkD-uGNg-LZb6FbL3wsltquVt7UEqE6ssOyMWZiIZ8ubvqkJAUPkV8tYMOuESaEKNd72eOh5cq6O9xGtyGAh06V3IMKH3pjKi5rwe9PwbcULMoDHkM4bitamjdkIiCvYllqGmoZaGzKyMM6oPWvdkkbP49au4l4wLpPhYIu3r66PCfjk5R5XNa7up6IuiBU6HAZJ3IKSOVk4o1oPWIplDIygWcgj5jcYJZck3JcNy7IzGFg2tRb1K6wbGYHgm-5QdL5ZLRSy7D3kwmKAMEiDY3sgHSe4rkMlzFms08avk3po1cXkLCRz2GquG4M5GIJMJVLwkjbUrzUcfkPsKEv2pVSg8TIILtEV-5CP6JGKE0kg0k-3B6nwD8eqNWlpZ6qswiRbGfOwPt0ses5hOIl_g0G31ZfmTlceuNO1T1qCzGDbp2jjHRWM0x6mdQFROcoUPJsEQ76SAw8GULW26vQ4Rt-sWvEGs5biwErfCfgQeK3ZgebPQn_Y8YPc2Fej7PCK2YLGunJnBKT43GZ9LAFGJwLcA90vwpr4POO4px9C2tCbGs6wBw02eRAiSUWYXcv3UUZFf0LXshgBH7t8FDn9Mz3N7LXxNgdAwt6zQYjbfHDONI3TmBvn3iTTNTr09ruoGDrQjokwZ- -7PnZg5sU5w_BJquIiGMUuQcsui_ZdE7edul-cQ-H1dNwLS3DOem5j3ZM_Vn5A0vszCnEkxLq_5IxofqPoAd4ccxDGVz7sKsRoEj25rGlQWMqm1gw-cy-G5mDiZ-8FgARMpxpUbpQMnDSVT5jJ97XjORsHlZUKhrYVKvLvRE6fxmEtBvPmvjztOjpby0]-->
     </g>
 </svg>

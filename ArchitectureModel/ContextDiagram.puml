@@ -1,8 +1,10 @@
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include ./C4_Context.puml
 
-LAYOUT_TOP_DOWN()
+LAYOUT_LEFT_RIGHT()
 LAYOUT_WITH_LEGEND()
+
+
 
 AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
 AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
@@ -17,7 +19,10 @@ Enterprise_Boundary(hospital, "External Hospital System"){
 }
 
 Enterprise_Boundary(ResearchIO, "Research IO"){
-    System_Boundary(tesselate, "Tesselate"){
+
+    Person(support, "Support", "Supports the website")
+
+    System_Boundary(tesselate, "Tesselate - Systems highlighted in purple are clickable links"){
         System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
         System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
         System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
@@ -44,5 +49,6 @@ Rel(website, datamarket, "Uses")
 Rel(researcher, website, "Uses")
 Rel(reviewer, website, "Uses")
 Rel(datamarket, research_db, "Sends data to")
+Rel(support, website, "Uses")
 
 @enduml

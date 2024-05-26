@@ -1,5 +1,5 @@
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include ./C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
 
@@ -11,10 +11,10 @@ System_Ext(hie, "Hospital HIE", "Health Information Exchange")
 System_Ext(pacs, "PACS", "Picture Archiving and Communication System")
 System_Ext(fhir, "FHIR Server", "Fast Healthcare Interoperability Resources Server")
 System_Ext(files, "Files, FTP, DB")
-System(datamarket, "Data Market")
+System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
 System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
 
-Container_Boundary(ingest, "Ingest Platform", "The boundary of the system"){
+Container_Boundary(ingest, "Ingest Platform - Systems highlighted in purple are clickable links", "The boundary of the system"){
 Container(integrationEngine, "Integration Engine", "Engine that integrates data from different sources")
 ContainerQueue(image, "Medical Image Queue", "Queue for images")
 ContainerQueue(cda, "CDA Queue", "Queue for CDA documents")
