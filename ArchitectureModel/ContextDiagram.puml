@@ -1,0 +1,48 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_TOP_DOWN()
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
+AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
+
+Enterprise_Boundary(hospital, "External Hospital System"){
+    Person_Ext(clinician, "Clinician", "Review/ Comment data")
+    Person_Ext(billers, "Hospital Biller","Reviews earnings")
+    System_Ext(hie, "Hospital HIE", "Health Information Exchange")
+    System_Ext(pacs, "PACS", "Picture Archiving and Communication System")
+    System_Ext(fhir, "FHIR Server", "Fast Healthcare Interoperability Resources Server")
+    System_Ext(files, "Files, FTP, DB")
+}
+
+Enterprise_Boundary(ResearchIO, "Research IO"){
+    System_Boundary(tesselate, "Tesselate"){
+        System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
+        System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
+        System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
+        System(website, "tesselate.io",$link="./TesselateIOContainer.puml", $tags="lowerLevelLink")
+    }
+}
+
+Enterprise_Boundary(research, "External Research Organization"){
+    Person_Ext(researcher, "Researcher", "Uses Website to discover data")
+    Person_Ext(reviewer, "Charge Review Specialist", "Uses Website to review usage and invoices")
+    System_Ext(research_db, "External Research Data Sink")
+}
+
+Rel(clinician, website, "Uses")
+Rel(billers, website, "Uses")
+Rel(hie, ingestion, "Sends data to")
+Rel(pacs, ingestion, "Sends data to")
+Rel(fhir, ingestion, "Sends data to")
+Rel(files, ingestion, "Sends data to")
+Rel(ingestion, datamarket, "Sends data to")
+Rel(ingestion, ampi, "creates/ updates anonymous identities")
+Rel(datamarket, ampi, "Uses")
+Rel(website, datamarket, "Uses")
+Rel(researcher, website, "Uses")
+Rel(reviewer, website, "Uses")
+Rel(datamarket, research_db, "Sends data to")
+
+@enduml

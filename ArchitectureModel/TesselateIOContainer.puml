@@ -1,0 +1,13 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
+AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
+
+Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
+
+Container_Boundary(website, "Tesselate.io", "The boundary of the system")
+
+@enduml

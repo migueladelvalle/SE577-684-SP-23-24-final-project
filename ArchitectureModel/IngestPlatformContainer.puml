@@ -1,0 +1,45 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
+AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
+
+Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
+System_Ext(hie, "Hospital HIE", "Health Information Exchange")
+System_Ext(pacs, "PACS", "Picture Archiving and Communication System")
+System_Ext(fhir, "FHIR Server", "Fast Healthcare Interoperability Resources Server")
+System_Ext(files, "Files, FTP, DB")
+System(datamarket, "Data Market")
+System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
+
+Container_Boundary(ingest, "Ingest Platform", "The boundary of the system"){
+Container(integrationEngine, "Integration Engine", "Engine that integrates data from different sources")
+ContainerQueue(image, "Medical Image Queue", "Queue for images")
+ContainerQueue(cda, "CDA Queue", "Queue for CDA documents")
+ContainerQueue(hl7, "Hl7 Queue", "Queue for Hl7 messages")
+Container(hl7processor, "Hl7 ETL Processor", "Processes Hl7 messages")
+Container(dicom, "DICOM ETL Processor", "Processes DICOM images")
+Container(cdaProcessor, "CDA ETL Processor", "Processes CDA documents")
+}
+
+Rel(hie, integrationEngine, "Sends Hl7 data to")
+Rel(integrationEngine, hl7, "Sends Hl7 data to")
+Rel(files, integrationEngine, "Sends data to")
+Rel(fhir, integrationEngine, "Sends data to")
+Rel(hl7, hl7processor, "Sends Hl7 data to")
+Rel(hl7processor, ampi, "Sends Hl7 data to")
+Rel(integrationEngine, pacs, "Query Image data")
+Rel(pacs, integrationEngine, "Sends image data to")
+Rel(integrationEngine, image, "Sends data to")
+Rel(image, dicom, "Sends data to")
+Rel(dicom, ampi, "Uses")
+Rel(dicom, datamarket, "Sends data to")
+Rel(integrationEngine, cda, "Sends data to")
+Rel(cda, cdaProcessor, "Sends data to")
+Rel(cdaProcessor, datamarket, "Sends data to")
+Rel(cdaProcessor, ampi, "Uses")
+
+
+@enduml

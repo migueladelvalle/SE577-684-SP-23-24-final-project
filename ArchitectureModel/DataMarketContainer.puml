@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
+AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
+
+Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
+
+System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
+System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
+System(website, "tesselate.io",$link="./TesselateIOContainer.puml", $tags="lowerLevelLink")
+System_Ext(research_db, "External Research Data Sink")
+
+Container_Boundary(datamarket, "Data Market", "The boundary of the system"){
+    Container(dicom, "Dicom Document Store", "Stores Dicom Documents")
+    Container(cda, "CDA Document Store", "Stores CDA Documents")
+
+}
+
+@enduml

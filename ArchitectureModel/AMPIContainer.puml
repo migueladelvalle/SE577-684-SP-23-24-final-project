@@ -1,0 +1,31 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("lowerLevelLink", $borderColor="8324db",$borderThickness="8")
+AddElementTag("higherLevelLink", $borderColor="0fefe9ff",$borderThickness="8")
+
+System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
+System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
+
+Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
+
+Container_Boundary(ampi, "Anonymous Master Person Index", "The boundary of the system"){
+    Container(command, "AMPI Command REST Service", "Used for Commands such as Create and Update")
+    Container(query, "AMPI Query REST Service", "Used for Queries")
+    ContainerDb(commandCache, "Command Cache", "Cache for Command Data")
+    Container(executor, "Command Executor", "Executes Commands")
+    ContainerDb(store, "AMPI Store", "Stores AMPI Data")
+}
+
+Rel(ingestion, command, "Sends data to")
+Rel(datamarket, command, "Uses")
+Rel(datamarket, query, "Uses")
+Rel(command, commandCache, "Sends commands to")
+Rel(executor,commandCache, "Reads commands from")
+Rel(executor,store, "Writes data to")
+Rel(query, store, "Reads data from")
+
+
+@enduml
