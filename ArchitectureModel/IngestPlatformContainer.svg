@@ -844,4 +844,14 @@
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1014.5" x2="1014.5" y1="699.5475"
               y2="814.9655"/><!--SRC=[bLHBRzD04BxxLmmMXrGA1G5IuT13cZZ4Ka9DumfnYZRss5vblHkjrwK1yT-PjPqqTfrG3b4yZ- -RzxxYCX9bZ73vTlnnDLRIC2vHNsxBN3ZEVFJZzZvSVVV3sMhkVV6-JWONZZEAOqzWZjA4B1suGlr4FSS757CkD-uGNg-LZb6FbL3wsltquVt7UEqE6ssOyMWZiIZ8ubvqkJAUPkV8tYMOuESaEKNd72eOh5cq6O9xGtyGAh06V3IMKH3pjKi5rwe9PwbcULMoDHkM4bitamjdkIiCvYllqGmoZaGzKyMM6oPWvdkkbP49au4l4wLpPhYIu3r66PCfjk5R5XNa7up6IuiBU6HAZJ3IKSOVk4o1oPWIplDIygWcgj5jcYJZck3JcNy7IzGFg2tRb1K6wbGYHgm-5QdL5ZLRSy7D3kwmKAMEiDY3sgHSe4rkMlzFms08avk3po1cXkLCRz2GquG4M5GIJMJVLwkjbUrzUcfkPsKEv2pVSg8TIILtEV-5CP6JGKE0kg0k-3B6nwD8eqNWlpZ6qswiRbGfOwPt0ses5hOIl_g0G31ZfmTlceuNO1T1qCzGDbp2jjHRWM0x6mdQFROcoUPJsEQ76SAw8GULW26vQ4Rt-sWvEGs5biwErfCfgQeK3ZgebPQn_Y8YPc2Fej7PCK2YLGunJnBKT43GZ9LAFGJwLcA90vwpr4POO4px9C2tCbGs6wBw02eRAiSUWYXcv3UUZFf0LXshgBH7t8FDn9Mz3N7LXxNgdAwt6zQYjbfHDONI3TmBvn3iTTNTr09ruoGDrQjokwZ- -7PnZg5sU5w_BJquIiGMUuQcsui_ZdE7edul-cQ-H1dNwLS3DOem5j3ZM_Vn5A0vszCnEkxLq_5IxofqPoAd4ccxDGVz7sKsRoEj25rGlQWMqm1gw-cy-G5mDiZ-8FgARMpxpUbpQMnDSVT5jJ97XjORsHlZUKhrYVKvLvRE6fxmEtBvPmvjztOjpby0]-->
     </g>
+    <foreignObject x="20" y="600" width="400" height="800">
+        <p xmlns="http://www.w3.org/1999/xhtml">The ingest data platform ingests data from various sources, deidentifies
+            it, and passes it to the data market. When data is received in the ETL Processor, it sends the records to
+            the Anonymous Master Person Index to:
+            <ul>
+                <li>Find an identity to which to associate the document.</li>
+                <li>If an identity doesn't exist, attempt to create one using the data in the document.</li>
+            </ul>
+        </p>
+    </foreignObject>
 </svg>

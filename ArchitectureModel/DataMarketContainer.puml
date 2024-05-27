@@ -12,34 +12,32 @@ Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherL
 
 System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
 System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
-System(website, "tesselate.io",$link="./TesselateIOContainer.puml", $tags="lowerLevelLink")
+System(website, "Tessellate.io",$link="./TessellateIOContainer.puml", $tags="lowerLevelLink")
 System_Ext(research_db, "External Research Data Sink")
 
 Container_Boundary(datamarket, "Data Market - Systems highlighted in purple are clickable links", "The boundary of the system"){
-    ContainerDb(dicom, "Dicom Document Store", "Stores Dicom Documents")
-    ContainerDb(cda, "CDA Document Store", "Stores CDA Documents")
-    Container(search, "Search REST API", "Searches for documents and images")
-    Container(proxy, "router", "Proxies requests to the correct service")
+    ContainerDb(datawarehouse, "Data Warehouse", "Stores data")
+    Container_Boundary(input, "Input Systems", "Systems that input data into the system"){
+        Container(search, "Search REST API", "Searches for documents and images")
+            Container(proxy, "router", "Proxies requests to the correct service")
+    }
     Container(gateway, API Gateway, "API Gateway")
     ContainerDb(elk, "ELK Stack", "Stores logs")
     Container(slack, "Slack", "Chat Ops")
+    ContainerDb(purchase_db, "Purchase Database", "Stores purchase data")
 }
 
 Rel(gateway, search, "Uses")
 Rel(search, ampi, "Uses")
-Rel(search, dicom, "Uses")
-Rel(search, cda, "Uses")
-Rel(ingestion, proxy, "Sends Data to")
-Rel(proxy, dicom, "Writes Data to")
-Rel(proxy, cda, "Writes Data to")
+
+Rel(ingestion, proxy, " ")
+
 Rel(proxy, research_db, "Sends Data to")
 Rel(website, gateway, "Uses")
-Rel(gateway, proxy, "Uses")
-Rel(proxy, elk, "Logs to")
-Rel(search, elk, "Logs to")
-Rel(slack, elk, "uses")
-Rel(website, elk, "Uses")
 
-
+Rel(input, elk, "Logs to")
+Rel(input, purchase_db, "record purchases to")
+Rel(input, datawarehouse, "writes/ gets data to/from")
+Rel(slack, elk, "Uses")
 
 @enduml

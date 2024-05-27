@@ -426,4 +426,14 @@
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="688" x2="688" y1="422.77"
               y2="538.188"/><!--SRC=[ZPDDZzem48Rl-HNJg0UGA5krUsWFUs01jKXiIqbGrHDoaWcnS6ngErlGgl-zuoI6RCfMHK9ulfvtPcnUSPcAAaCOtqnljrCbBUCIzVXGbI88bfCVNpVnzliY_hnTpZ_Dlym6mo2OPDbSO8dIncmt28NwXNg9ZoYMNEx34RnEbCvGJvLG-YxyyFxTRPQ4ezOR5ppTIpI68k6mpohuhlWNx6sEENxCyvTmGNGo5ii1bpiqbYivWd1Hds4bcCsLBgbK4Fek7Dyq4HzuFhoJjcn7tDvyGw-HCSjAflTeIMH61ZpKLaV0UHldVyE3S-OWOUcUqFVq0x425y2ZTRMUtxfcdEqqAtle_YwxxEszgcJ6z6d0oWCdaObKybIgoj0GD9s65MgZ92naXaTu0ytC1XnKqDTY1bp2eT87WS0qGYhe9bX2bklEK1zXN20ahH2e72pPfWQ5mwS0w7CPDbLboMJcMdbOBIXGcx2UHp54g1zvYWwvCIHCj-KJ39WgBO0Pc6fabbgXeis1xWPfuESIFolK9o_mpHalursOe-apPeblTChI0gd2DrhR3b4VkYs2UmL_DOD7J2khT0SnRrsEqfpHdEUyqecXNFJpHCvmbVN1GEribNy7mHf5zqznsNQ4RedkBODLbEiIko_xaacxCLSI_5OxuNDDRrUDLkflxgnttaKlVusicvzhLVOh_0wuCHLUOxVj-Rm6MO_Rue8_]-->
     </g>
+    <foreignObject x="10" y="390" width="530" height="200">
+        <p xmlns="http://www.w3.org/1999/xhtml">The Anonymized Master Person Index (AMPI) creates a proxy identity for a
+            patient that can't be traced back to actual patients. This enables researchers to view a patient's condition
+            over time. It creates a cross-reference between a hospital identifier, such as a medical record number, and
+            a unique ID generated for display purposes on the Tessellate side. The hospital identifier is only viewable
+            by clinicians. AMPI supports merging identities for patients in multiple hospital systems with disparate
+            identifiers. It leverages a command query architecture style for better horizontal scalability and domain
+            separation (when required).
+        </p>
+    </foreignObject>
 </svg>

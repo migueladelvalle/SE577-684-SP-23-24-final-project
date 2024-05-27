@@ -22,11 +22,11 @@ Enterprise_Boundary(ResearchIO, "Research IO"){
 
     Person(support, "Support", "Supports the website")
 
-    System_Boundary(tesselate, "Tesselate - Systems highlighted in purple are clickable links"){
+    System_Boundary(Tessellate, "Tessellate - Systems highlighted in purple are clickable links"){
         System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
         System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
         System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
-        System(website, "tesselate.io",$link="./TesselateIOContainer.puml", $tags="lowerLevelLink")
+        System(website, "Tessellate.io",$link="./TessellateIOContainer.puml", $tags="lowerLevelLink")
     }
 }
 

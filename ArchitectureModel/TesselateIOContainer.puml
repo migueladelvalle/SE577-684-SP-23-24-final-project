@@ -17,7 +17,7 @@ Person(support, "Support", "Supports the website")
 
 Container_Boundary(website, "Tessellate.io - Systems highlighted in purple are clickable links", "The boundary of the system"){
     Container(billing, "Invoicing UI", "Handles billing and invoicing")
-    Container(query, "Data Discovery and annotation UI", "Handles data discovery")
+    Container(query, "Data Discovery, purchase, and annotation UI", "Handles data discovery")
     Container(logs, "Kibana", "Handles logs and monitoring")
 }
 

@@ -23,12 +23,12 @@
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
                   textLength="71" x="566" y="848.4453">[Enterprise]
             </text>
-        </g><!--cluster tesselate-->
-        <g id="cluster_tesselate">
+        </g><!--cluster Tessellate-->
+        <g id="cluster_tessellate">
             <rect fill="none" height="205" rx="2.5" ry="2.5"
                   style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="738" x="397" y="875"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="496" x="518" y="892.4688">Tesselate - Systems highlighted in purple are clickable links
+                  textLength="496" x="518" y="892.4688">Tessellate - Systems highlighted in purple are clickable links
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
                   textLength="53" x="739.5" y="907.4453">[System]
@@ -309,13 +309,13 @@
             </a>
         </g><!--entity website-->
         <g id="elem_website">
-            <a href="./TesselateIOContainer.svg" target="_top" title="./TesselateIOContainer.svg"
-               xlink:actuate="onRequest" xlink:href="./TesselateIOContainer.svg" xlink:show="new"
-               xlink:title="./TesselateIOContainer.svg" xlink:type="simple">
+            <a href="./TessellateIOContainer.svg" target="_top" title="./TessellateIOContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./TessellateIOContainer.svg" xlink:show="new"
+               xlink:title="./TessellateIOContainer.svg" xlink:type="simple">
                 <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
                       width="110" x="431" y="1009.58"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="90" x="441" y="1035.0488">tesselate.io
+                      textLength="90" x="441" y="1035.0488">Tessellate.io
                 </text>
             </a>
         </g><!--entity researcher-->
@@ -681,4 +681,36 @@
         <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1134" x2="1134" y1="1638"
               y2="1720.4414"/><!--SRC=[dLLBRnen4BxdLqnNFH29XghDeJtaG0Y4bPA2W2Zg2PdTWHrXx9Nj9P0g_xtZVML3IAC62M5xPhvvVJDy8XN9B4Ouw_JEvpsj7ExSMPfjvCd9JVVtw6usl-aFPlD9U3sSjKwhj_jmDcJ1TV_N5J_ofnl7VOaRL6ucLgr0wWSqDxX5UKDg7RJXyqAR64rFIsqkWX_Vlvt7Yw1TliuIYjOAhML9S7g8bT0g-HVOroKkyUTo-HRSIP-JCgaXY_DBdQbOc7qhqJOb9sGRWlwEnKf869PlCDrRXvlWzCy9y6UCncerPxLM94bHH4AnMQywSq311BU43ntewOsF6sBX1Bi-C5-Gb7nZ_ThLPVuKj4i42oYC8hMofNKHIcwT43OjXs7VUnwYa2w1K2srsGX7Ma5_5oL2hV0rH2eYxttSxKszxPWYbnc4heaIsh9N42hESyWujGAigiKXr38Xmn23OJY1APgjJuAlmZeeGee48uU-z3f58pXtSdkOeDMPYT1MHg-1IQ8FSb3y3cRZDbnTijxJyKuo8jSiIi9HteVY0k78jw_HW9RDqbGRnqhJuXGy7osu1E415vQSBripfjgHOqQX5CvtOLQTuKkfPy7pLFBNOGoa8CrCAX5y5PWsqLei-CQSMTkAMCzEMbnxjBxUZ1tcPnWplEyfqzfRNGHddK9I2Vom2b9eyd7rO-74YZb_C7kdXxuyDpV2hD7NueelS9lV6exyQ_7uKITYanB3TvLM-mqzSabkcHfeocumCMBSDJnsRyVXHtsLVMDtTOlEI3V0wsw5e__oyVGMvqn9i-RsgAatCYkXw34VdoCxfB95q-1hCJrtbkVYliW6d8QORAHvIDvO9oPV6JbEBn5cXL0i4PYco8j9adN7K0ipoAnW2p_mfBQQU2HVps8LwpnU74qrPy-qA1YNQeAokIAV- -93O1KlhtVWKMc-uvh3C4KLspn_3hrKAhROUrh5WdfNgzWoxwarv2_6vntTSWeYWqm-su4iZVs1g-x7GcSMAEQ_2t9KLw09NvetwbCNxKKK3OKckuvM-9aqHyLDt9VTFvPglLDVOVq5]-->
     </g>
+    <foreignObject x="500" y="200" width="600" height="600">
+        <p xmlns="http://www.w3.org/1999/xhtml" style="font-size: larger">The tessellate medical research integration
+            platform is composed of 4 main pieces:
+            <ul>
+                <li>Tessellate.io web platform</li>
+                <ol>
+                    <li>Used to query for data</li>
+                    <li>Used by clinicians to annotate data</li>
+                    <li>Used by Medical Billers to review earnings from the data they uploaded.</li>
+                    <li>Used by Researchers to discover medical data</li>
+                    <li>Used by Charge Review specialists to review invoices and make payments.</li>
+                    <li>Support analysts to troubleshoot and review logs.</li>
+                </ol>
+                <li>Ingest Platform</li>
+                <ol>
+                    <li>Used to ingest data from various sources and de-identify the data.</li>
+                </ol>
+                <li>Anonymous Master Person Index</li>
+                <ol>
+                    <li>Creates an anonymized identity that can not be traced back to actual patients</li>
+                    <li>Maintains a reference to clinical documents and medical data for anonymized identities to enable
+                        viewing the progress of an anonymized patient's condition
+                    </li>
+                </ol>
+                <li>Data Market</li>
+                <ol>
+                    <li>A set of systems that facilitate the buying, selling, and exchange of data</li>
+                    <li>Used by Data Market to aggregate data associated with an identity.</li>
+                </ol>
+            </ul>
+        </p>
+    </foreignObject>
 </svg>
