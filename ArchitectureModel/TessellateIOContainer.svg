@@ -124,8 +124,8 @@
             </text>
         </g><!--entity back-->
         <g id="elem_back">
-            <a href="./ContextDiagram.puml" target="_top" title="./ContextDiagram.puml" xlink:actuate="onRequest"
-               xlink:href="./ContextDiagram.puml" xlink:show="new" xlink:title="./ContextDiagram.puml"
+            <a href="./ContextDiagram.svg" target="_top" title="./ContextDiagram.svg" xlink:actuate="onRequest"
+               xlink:href="./ContextDiagram.svg" xlink:show="new" xlink:title="./ContextDiagram.svg"
                xlink:type="simple">
                 <rect fill="#438DD5" height="38.8438" rx="2.5" ry="2.5" style="stroke:#0FEFE9;stroke-width:8.0;"
                       width="151" x="7" y="65.15"/>
@@ -298,9 +298,9 @@
             </text>
         </g><!--entity datamarket-->
         <g id="elem_datamarket">
-            <a href="./DataMarketContainer.puml" target="_top" title="./DataMarketContainer.puml"
-               xlink:actuate="onRequest" xlink:href="./DataMarketContainer.puml" xlink:show="new"
-               xlink:title="./DataMarketContainer.puml" xlink:type="simple">
+            <a href="./DataMarketContainer.svg" target="_top" title="./DataMarketContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./DataMarketContainer.svg" xlink:show="new"
+               xlink:title="./DataMarketContainer.svg" xlink:type="simple">
                 <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
                       width="118" x="680.5" y="443.82"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
