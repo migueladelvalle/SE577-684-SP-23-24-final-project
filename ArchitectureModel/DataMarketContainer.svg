@@ -221,8 +221,8 @@
             </text>
         </g><!--entity back-->
         <g id="elem_back">
-            <a href="./ContextDiagram.puml" target="_top" title="./ContextDiagram.puml" xlink:actuate="onRequest"
-               xlink:href="./ContextDiagram.puml" xlink:show="new" xlink:title="./ContextDiagram.puml"
+            <a href="./ContextDiagram.svg" target="_top" title="./ContextDiagram.svg" xlink:actuate="onRequest"
+               xlink:href="./ContextDiagram.svg" xlink:show="new" xlink:title="./ContextDiagram.svg"
                xlink:type="simple">
                 <rect fill="#438DD5" height="38.8438" rx="2.5" ry="2.5" style="stroke:#0FEFE9;stroke-width:8.0;"
                       width="151" x="7" y="457"/>
@@ -244,9 +244,9 @@
             </a>
         </g><!--entity ingestion-->
         <g id="elem_ingestion">
-            <a href="./IngestPlatformContainer.puml" target="_top" title="./IngestPlatformContainer.puml"
-               xlink:actuate="onRequest" xlink:href="./IngestPlatformContainer.puml" xlink:show="new"
-               xlink:title="./IngestPlatformContainer.puml" xlink:type="simple">
+            <a href="./IngestPlatformContainer.svg" target="_top" title="./IngestPlatformContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./IngestPlatformContainer.svg" xlink:show="new"
+               xlink:title="./IngestPlatformContainer.svg" xlink:type="simple">
                 <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
                       width="146" x="250" y="7"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
@@ -261,8 +261,8 @@
             </a>
         </g><!--entity ampi-->
         <g id="elem_ampi">
-            <a href="./AMPIContainer.puml" target="_top" title="./AMPIContainer.puml" xlink:actuate="onRequest"
-               xlink:href="./AMPIContainer.puml" xlink:show="new" xlink:title="./AMPIContainer.puml"
+            <a href="./AMPIContainer.svg" target="_top" title="./AMPIContainer.svg" xlink:actuate="onRequest"
+               xlink:href="./AMPIContainer.svg" xlink:show="new" xlink:title="./AMPIContainer.svg"
                xlink:type="simple">
                 <rect fill="#1168BD" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
                       width="183" x="922" y="601.58"/>
@@ -287,9 +287,9 @@
             </a>
         </g><!--entity website-->
         <g id="elem_website">
-            <a href="./TessellateIOContainer.puml" target="_top" title="./TessellateIOContainer.puml"
-               xlink:actuate="onRequest" xlink:href="./TessellateIOContainer.puml" xlink:show="new"
-               xlink:title="./TessellateIOContainer.puml" xlink:type="simple">
+            <a href="./TessellateIOContainer.svg" target="_top" title="./TessellateIOContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./TessellateIOContainer.svg" xlink:show="new"
+               xlink:title="./TessellateIOContainer.svg" xlink:type="simple">
                 <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
                       width="120" x="22.5" y="383"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
