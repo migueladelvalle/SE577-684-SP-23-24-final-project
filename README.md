@@ -1,2 +1,21 @@
-**Test**
-![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/ContextDiagram.svg)
+# C4 Architecture Model
+
+## Context Diagram
+
+![not found](./ArchitectureModel/ContextDiagram.svg)
+
+## Ingest Platform Container Diagram
+
+![not found](./ArchitectureModel/IngestPlatformContainer.svg)
+
+## Anonymous Master Person Index Diagram
+
+![not found](./ArchitectureModel/AMPIContainer.svg)
+
+## Data Market Container Diagram
+
+![not found](./ArchitectureModel/DataMarketContainer.svg)
+
+## Tessellate.IO Container Diagram
+
+![not found](./ArchitectureModel/TessellateIOContainer.svg)
