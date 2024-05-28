@@ -2,7 +2,11 @@
 
 ## Context Diagram
 
-![not found](./ArchitectureModel/ContextDiagram.svg)
+The diagram below can be clicked to redirect to an interactive version of the diagram. The interactive version has
+components highlighted in purple that navigate to other architecture pieces. It also has boxes highlighted in blue at
+lower levels, which navigate back to the context diagram.
+
+![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/ContextDiagram.svg)
 
 ## Ingest Platform Container Diagram
 
