@@ -10,13 +10,14 @@ System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tag
 System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
 
 Container(back, "Back To Context", $link="./ContextDiagram.puml", $tags="higherLevelLink")
+System(security, "Authorization Token Issuer/ Validator", "Software System")
 
 Container_Boundary(ampi, "Anonymous Master Person Index - Systems highlighted in purple are clickable links", "The boundary of the system"){
-    Container(command, "AMPI Command REST Service", "Used for Commands such as Create and Update")
-    Container(query, "AMPI Query REST Service", "Used for Queries")
-    ContainerDb(commandCache, "Command Cache", "Cache for Command Data")
-    Container(executor, "Command Executor", "Executes Commands")
-    ContainerDb(store, "AMPI Store", "Stores AMPI Data")
+    Container(command, "AMPI Command Service","Container: REST Command Service Components", "Used for Commands such as Create and Update")
+    Container(query, "AMPI Query Service", "Container: REST Query Service Components","Used for Queries")
+    ContainerQueue(commandCache, "Command queue", "Kafka","Cache for Command Data")
+    Container(executor, "Command Executor", "Container:Command Execution Components","Executes Commands")
+    ContainerDb(store, "AMPI Data Store", "Relational DB")
 }
 
 Rel(ingestion, command, "Sends data to")
@@ -26,6 +27,7 @@ Rel(command, commandCache, "Sends commands to")
 Rel(executor,commandCache, "Reads commands from")
 Rel(executor,store, "issues commands to")
 Rel(query, store, "Reads data from")
-
+Rel_U(ampi,security, "Uses")
+Lay_U(ingestion,back)
 
 @enduml

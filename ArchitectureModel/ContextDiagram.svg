@@ -1,310 +1,322 @@
 <?xml version="1.0" encoding="us-ascii" standalone="no"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
-     height="1747px" preserveAspectRatio="none" style="width:1165px;height:1747px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 1165 1747" width="1165px" zoomAndPan="magnify">
+     height="1371px" preserveAspectRatio="none" style="width:1673px;height:1371px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 1673 1371" width="1673px" zoomAndPan="magnify">
     <defs/>
     <g><!--cluster hospital-->
         <g id="cluster_hospital">
-            <rect fill="none" height="785" rx="2.5" ry="2.5"
-                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="252" x="16" y="7"/>
+            <rect fill="none" height="476" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="492" x="7" y="7"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="201" x="41.5" y="24.4688">External Hospital System
+                  textLength="201" x="152.5" y="24.4688">External Hospital System
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="71" x="106.5" y="39.4453">[Enterprise]
+                  textLength="71" x="217.5" y="39.4453">[Enterprise]
             </text>
         </g><!--cluster ResearchIO-->
         <g id="cluster_ResearchIO">
-            <rect fill="none" height="288" rx="2.5" ry="2.5"
-                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1115" x="44" y="816"/>
+            <rect fill="none" height="484" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1392.5" x="275" y="507"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="97" x="553" y="833.4688">Research IO
+                  textLength="97" x="922.75" y="524.4688">Research IO
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="71" x="566" y="848.4453">[Enterprise]
+                  textLength="71" x="935.75" y="539.4453">[Enterprise]
             </text>
         </g><!--cluster Tessellate-->
-        <g id="cluster_tessellate">
-            <rect fill="none" height="205" rx="2.5" ry="2.5"
-                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="738" x="397" y="875"/>
+        <g id="cluster_Tessellate">
+            <rect fill="none" height="287" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="951.5" x="684" y="672"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="496" x="518" y="892.4688">Tessellate - Systems highlighted in purple are clickable links
+                  textLength="501" x="909.25" y="689.4688">Tessellate - Systems highlighted in purple are clickable
+                links
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="53" x="739.5" y="907.4453">[System]
+                  textLength="53" x="1133.25" y="704.4453">[System]
+            </text>
+        </g><!--cluster data-->
+        <g id="cluster_data">
+            <rect fill="none" height="143" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="478.5" x="1125" y="784"/>
+            <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="136" x="1296.25" y="801.4688">Data Access Tier
             </text>
         </g><!--cluster research-->
         <g id="cluster_research">
-            <rect fill="none" height="486" rx="2.5" ry="2.5"
-                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="271" x="7" y="1128"/>
+            <rect fill="none" height="223" rx="2.5" ry="2.5"
+                  style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1063.5" x="263" y="1015"/>
             <text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="256" x="14.5" y="1145.4688">External Research Organization
+                  textLength="256" x="666.75" y="1032.4688">External Research Organization
             </text>
             <text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="71" x="107" y="1160.4453">[Enterprise]
+                  textLength="71" x="759.25" y="1047.4453">[Enterprise]
             </text>
         </g><!--entity clinician-->
         <g id="elem_clinician">
             <rect fill="#686868" height="119.8203" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;"
-                  width="179" x="52.5" y="501.09"/>
-            <image height="48" width="48" x="118"
+                  width="179" x="23" y="347.09"/>
+            <image height="48" width="48" x="88.5"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACE0lEQVR4Xu2YMW/CMBCF++P6Y5iZmVFHZmZmZmbmzMzMzOypvkqW0L3GOdvXEEt90idVjyb22ZfzJR+bzeajZ8ToDTFaORwO4/V6HW+323i/338YhmE8n8/jbrf7sv/fihi1nE6n8fl8jnMisP1+P9jraxGjlO12+8kql4odsfeqQYwSmLxn1ad0uVyagxCjhJqVtyL17H1LEMMLKRAldtLe34sYHhjQTqJFVC07hhcxPLDt0bJjeBHDA6UwWpwfdhwPYnhoqTxTqi2rYniwg0eotqSK4cEOHqFFA3g8Hnb8ZtWeB2J4oDmL1qIPcXQZpSjYMbyI4SWyEtXmP4jhpetWIhFxoB2Px+rVBzFKYOVaKlLt4fWKGDXU7ETryifEqIUJeXaDEtyS8xYxWuF9l9RgouwM0C5TeiMnnhCjN8ToDTE88H2HnCdVOISg5FMJ16brSC3aiNr0EiMHE849qPyW8p1JERTwN9fOVSt+L+2JxPgNbhrZOsyJQLw7IoYlsmUoEbvp+RQpxivRXWep2PW5nRAjQe7aG75DpJOdmyuAuQduSeXaDjFgLaufxPNg55gNgFK4Nk090GJArta/S1Mv/WKAvXgNmnrtFCP6w22U6G7tXLsKYKqcivEfwB+p+wDczwAs2Xl6NfUFQwx4dxNnlWvqxEhQd9cgDtXc254YrxA1LzM0U+8gN3FXAD0gRm98A/FFFW2vidUFAAAAAElFTkSuQmCC"
-                   y="511.09"/>
+                   y="357.09"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="71" x="106.5" y="574.5587">Clinician
+                  textLength="71" x="77" y="420.5588">Clinician
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="591.4689">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="110.5"
+                  y="437.4689">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="62.5"
-                  y="607.9572">Review/
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="33"
+                  y="453.9572">Review/
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="116.5"
-                  y="607.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="87"
+                  y="453.9572">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67"
-                  x="120.5" y="607.9572">Comment
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="91"
+                  y="453.9572">Comment
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="187.5"
-                  y="607.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="158"
+                  y="453.9572">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30"
-                  x="191.5" y="607.9572">data
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="162"
+                  y="453.9572">data
             </text>
         </g><!--entity billers-->
         <g id="elem_billers">
             <rect fill="#686868" height="119.8203" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;"
-                  width="138" x="73" y="656.09"/>
-            <image height="48" width="48" x="118"
+                  width="138" x="43.5" y="171.09"/>
+            <image height="48" width="48" x="88.5"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACE0lEQVR4Xu2YMW/CMBCF++P6Y5iZmVFHZmZmZmbmzMzMzOypvkqW0L3GOdvXEEt90idVjyb22ZfzJR+bzeajZ8ToDTFaORwO4/V6HW+323i/338YhmE8n8/jbrf7sv/fihi1nE6n8fl8jnMisP1+P9jraxGjlO12+8kql4odsfeqQYwSmLxn1ad0uVyagxCjhJqVtyL17H1LEMMLKRAldtLe34sYHhjQTqJFVC07hhcxPLDt0bJjeBHDA6UwWpwfdhwPYnhoqTxTqi2rYniwg0eotqSK4cEOHqFFA3g8Hnb8ZtWeB2J4oDmL1qIPcXQZpSjYMbyI4SWyEtXmP4jhpetWIhFxoB2Px+rVBzFKYOVaKlLt4fWKGDXU7ETryifEqIUJeXaDEtyS8xYxWuF9l9RgouwM0C5TeiMnnhCjN8ToDTE88H2HnCdVOISg5FMJ16brSC3aiNr0EiMHE849qPyW8p1JERTwN9fOVSt+L+2JxPgNbhrZOsyJQLw7IoYlsmUoEbvp+RQpxivRXWep2PW5nRAjQe7aG75DpJOdmyuAuQduSeXaDjFgLaufxPNg55gNgFK4Nk090GJArta/S1Mv/WKAvXgNmnrtFCP6w22U6G7tXLsKYKqcivEfwB+p+wDczwAs2Xl6NfUFQwx4dxNnlWvqxEhQd9cgDtXc254YrxA1LzM0U+8gN3FXAD0gRm98A/FFFW2vidUFAAAAAElFTkSuQmCC"
-                   y="666.09"/>
+                   y="181.09"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="67" x="85.5" y="729.5588">Hospital
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="152.5" y="729.5588">&#160;
+                  textLength="67" x="56" y="244.5587">Hospital
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="41" x="157.5" y="729.5588">Biller
+                  textLength="5" x="123" y="244.5587">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="746.4689">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="41" x="128" y="244.5587">Biller
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="83"
-                  y="762.9572">Reviews
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="110.5"
+                  y="261.4689">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="137"
-                  y="762.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="53.5"
+                  y="277.9572">Reviews
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="141"
-                  y="762.9572">earnings
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="107.5"
+                  y="277.9572">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60"
+                  x="111.5" y="277.9572">earnings
             </text>
         </g><!--entity hie-->
         <g id="elem_hie">
             <rect fill="#999999" height="71.8203" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="220"
-                  x="32" y="271.09"/>
+                  x="263" y="58.09"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="67" x="92.5" y="296.5587">Hospital
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="159.5" y="296.5587">&#160;
+                  textLength="67" x="323.5" y="83.5587">Hospital
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="164.5" y="296.5587">HIE
+                  textLength="5" x="390.5" y="83.5587">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="313.4689">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="27" x="395.5" y="83.5587">HIE
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="42"
-                  y="329.9572">Health
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="371"
+                  y="100.4689">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="86"
-                  y="329.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="273"
+                  y="116.9572">Health
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="90"
-                  y="329.9572">Information
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="317"
+                  y="116.9572">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="171"
-                  y="329.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="321"
+                  y="116.9572">Information
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="175"
-                  y="329.9572">Exchange
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="402"
+                  y="116.9572">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="406"
+                  y="116.9572">Exchange
             </text>
         </g><!--entity pacs-->
         <g id="elem_pacs">
             <rect fill="#999999" height="88.3086" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="181"
-                  x="51.5" y="377.85"/>
+                  x="282.5" y="164.85"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="42" x="121" y="403.3187">PACS
+                  textLength="42" x="352" y="190.3187">PACS
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="420.2289">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="371"
+                  y="207.2289">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="69"
-                  y="436.7172">Picture
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="300"
+                  y="223.7172">Picture
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="116"
-                  y="436.7172">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="347"
+                  y="223.7172">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="120"
-                  y="436.7172">Archiving
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="351"
+                  y="223.7172">Archiving
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="185"
-                  y="436.7172">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="416"
+                  y="223.7172">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="189"
-                  y="436.7172">and
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="420"
+                  y="223.7172">and
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109"
-                  x="61.5" y="453.2055">Communication
+                  x="292.5" y="240.2055">Communication
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="170.5"
-                  y="453.2055">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="401.5"
+                  y="240.2055">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48"
-                  x="174.5" y="453.2055">System
+                  x="405.5" y="240.2055">System
             </text>
         </g><!--entity fhir-->
         <g id="elem_fhir">
             <rect fill="#999999" height="104.7969" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;"
-                  width="199" x="42.5" y="57.6"/>
+                  width="199" x="273.5" y="362.6"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="96" y="83.0687">FHIR
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="133" y="83.0687">&#160;
+                  textLength="37" x="327" y="388.0688">FHIR
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="50" x="138" y="83.0687">Server
+                  textLength="5" x="364" y="388.0688">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="99.9789">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="50" x="369" y="388.0688">Server
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="89.5"
-                  y="116.4672">Fast
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="371"
+                  y="404.9789">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="117.5"
-                  y="116.4672">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28"
+                  x="320.5" y="421.4672">Fast
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="348.5"
+                  y="421.4672">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73"
-                  x="121.5" y="116.4672">Healthcare
+                  x="352.5" y="421.4672">Healthcare
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105"
-                  x="52.5" y="132.9555">Interoperability
+                  x="283.5" y="437.9555">Interoperability
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="157.5"
-                  y="132.9555">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="388.5"
+                  y="437.9555">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70"
-                  x="161.5" y="132.9555">Resources
+                  x="392.5" y="437.9555">Resources
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43"
-                  x="120.5" y="149.4437">Server
+                  x="351.5" y="454.4438">Server
             </text>
         </g><!--entity files-->
         <g id="elem_files">
             <rect fill="#999999" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="128"
-                  x="78" y="197.58"/>
+                  x="309" y="288.58"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="41" x="88" y="223.0487">Files,
+                  textLength="41" x="319" y="314.0488">Files,
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="129" y="223.0487">&#160;
+                  textLength="5" x="360" y="314.0488">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="34" x="134" y="223.0487">FTP,
+                  textLength="34" x="365" y="314.0488">FTP,
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="168" y="223.0487">&#160;
+                  textLength="5" x="399" y="314.0488">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="23" x="173" y="223.0487">DB
+                  textLength="23" x="404" y="314.0488">DB
             </text>
         </g><!--entity support-->
         <g id="elem_support">
             <rect fill="#08427B" height="119.8203" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;"
-                  width="164" x="60" y="968.09"/>
-            <image height="48" width="48" x="118"
+                  width="164" x="291" y="636.09"/>
+            <image height="48" width="48" x="349"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACMElEQVR4Xu2YvUrFQBCFb+kj+Ai+gq3Y2PgA+gCCtZ2V2AhqaSNiqY1gYWMjaCvXykoEKy21sLCNfELgMscksz8mWfDAB3Kuye7sTmYnmcwtbU9KRozSECOVla3T6uTqvrqZPlcPT68/XNw+VtvH19XC+sGe/f9UxIhl8/Cy+vj8qrpEYIsbR1N7fSxihDK/urvMKoeKHbH3ikGMEJi8Z9WbtH92lxyEGCHErLwVqWfvG4IYXkiBXGIn7f29iOGBAe0kUkTVsmN4EcMD255bdgwvYnigFOYW54cdx4MYHlIqT5Niy6oYHuzgORRbUsXwYAfPoV4DeHl7t+MnK/Y8EMMDzVlu9foQ5y6jFAU7hhcxvOSsRLH5D2J4KbqVqMlxoK3tnEevPogRAiuXUpFiD69ZxIghZidSV75GjFiYkGc3KMEpOW8RIxXed0kNJsrOAO0ypTfnxGvEKA0xSkMMD3zfIedJFQ4hCPlUwrX1daQWbURseonRBhNue1D5rc53JkVQwN9c21Wt+D20JxLjN7hpztahSwTi3RExLDlbhhCxm55PkWLMkrvrDBW73rUTYtSQu/aGQ4h0snNzBdD1wPWptrZDDBjL6tfiebBzbA2AUjg2NT3QYkBbrR9KTS/9YoC9eAxqeu0UI/eH21yiu7VzLSqApnIqxn8Af6TiA3A/A9Bn5+lV0xcMMWDoJs6qrakTo4a6OwZxqLa97YkxC1HzMkMzNQRtE3cFUAJilMY3OGTNL0NDLqIAAAAASUVORK5CYII="
-                   y="978.09"/>
+                   y="646.09"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="65" x="109.5" y="1041.5588">Support
+                  textLength="65" x="340.5" y="709.5588">Support
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="1058.4689">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="371"
+                  y="726.4689">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="70"
-                  y="1074.9572">Supports
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="301"
+                  y="742.9572">Supports
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="132"
-                  y="1074.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="363"
+                  y="742.9572">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="136"
-                  y="1074.9572">the
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="367"
+                  y="742.9572">the
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="158"
-                  y="1074.9572">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="389"
+                  y="742.9572">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="162"
-                  y="1074.9572">website
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="393"
+                  y="742.9572">website
+            </text>
+        </g><!--entity security-->
+        <g id="elem_security">
+            <rect fill="#1168BD" height="90.6641" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="188"
+                  x="1113" y="557.67"/>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="112" x="1123" y="583.1388">Authorization
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="1235" y="583.1388">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="51" x="1240" y="583.1388">Token
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="59" x="1138.5" y="601.9825">Issuer/
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="5" x="1197.5" y="601.9825">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="73" x="1202.5" y="601.9825">Validator
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1205"
+                  y="618.8927">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1151"
+                  y="635.3809">Software
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1211"
+                  y="635.3809">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1215"
+                  y="635.3809">System
             </text>
         </g><!--entity ingestion-->
         <g id="elem_ingestion">
             <a href="./IngestPlatformContainer.svg" target="_top" title="./IngestPlatformContainer.svg"
                xlink:actuate="onRequest" xlink:href="./IngestPlatformContainer.svg" xlink:show="new"
                xlink:title="./IngestPlatformContainer.svg" xlink:type="simple">
-                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
-                      width="146" x="413" y="925.58"/>
+                <rect fill="#1168BD" height="71.8203" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="146" x="736.5" y="750.09"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="51" x="423" y="951.0488">Ingest
+                      textLength="51" x="746.5" y="775.5587">Ingest
                 </text>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="5" x="474" y="951.0488">&#160;
+                      textLength="5" x="797.5" y="775.5587">&#160;
                 </text>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="70" x="479" y="951.0488">Platform
+                      textLength="70" x="802.5" y="775.5587">Platform
                 </text>
-            </a>
-        </g><!--entity datamarket-->
-        <g id="elem_datamarket">
-            <a href="./DataMarketContainer.svg" target="_top" title="./DataMarketContainer.svg"
-               xlink:actuate="onRequest" xlink:href="./DataMarketContainer.svg" xlink:show="new"
-               xlink:title="./DataMarketContainer.svg" xlink:type="simple">
-                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
-                      width="118" x="716" y="1025.58"/>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="37" x="726" y="1051.0488">Data
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="807.5" y="792.4689">&#160;
                 </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="5" x="763" y="1051.0488">&#160;
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60"
+                      x="753.5" y="808.9572">Software
                 </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="56" x="768" y="1051.0488">Market
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="813.5" y="808.9572">&#160;
                 </text>
-            </a>
-        </g><!--entity ampi-->
-        <g id="elem_ampi">
-            <a href="./AMPIContainer.svg" target="_top" title="./AMPIContainer.svg" xlink:actuate="onRequest"
-               xlink:href="./AMPIContainer.svg" xlink:show="new" xlink:title="./AMPIContainer.svg" xlink:type="simple">
-                <rect fill="#1168BD" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
-                      width="183" x="936" y="951.16"/>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="103" x="946" y="976.6288">Anonymized
-                </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="5" x="1049" y="976.6288">&#160;
-                </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="55" x="1054" y="976.6288">Master
-                </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="56" x="974.5" y="995.4725">Person
-                </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="5" x="1030.5" y="995.4725">&#160;
-                </text>
-                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="45" x="1035.5" y="995.4725">Index
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48"
+                      x="817.5" y="808.9572">System
                 </text>
             </a>
         </g><!--entity website-->
@@ -312,376 +324,545 @@
             <a href="./TessellateIOContainer.svg" target="_top" title="./TessellateIOContainer.svg"
                xlink:actuate="onRequest" xlink:href="./TessellateIOContainer.svg" xlink:show="new"
                xlink:title="./TessellateIOContainer.svg" xlink:type="simple">
-                <rect fill="#1168BD" height="38.8438" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
-                      width="110" x="431" y="1009.58"/>
+                <rect fill="#1168BD" height="71.8203" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="203" x="708" y="857.09"/>
                 <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                      textLength="90" x="441" y="1035.0488">Tessellate.io
+                      textLength="100" x="759.5" y="882.5587">Tessellate.io
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="807.5" y="899.4689">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60"
+                      x="718" y="915.9572">Software
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="778" y="915.9572">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52"
+                      x="782" y="915.9572">System:
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="834" y="915.9572">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63"
+                      x="838" y="915.9572">Frontend
+                </text>
+            </a>
+        </g><!--entity datamarket-->
+        <g id="elem_datamarket">
+            <a href="./DataMarketContainer.svg" target="_top" title="./DataMarketContainer.svg"
+               xlink:actuate="onRequest" xlink:href="./DataMarketContainer.svg" xlink:show="new"
+               xlink:title="./DataMarketContainer.svg" xlink:type="simple">
+                <rect fill="#1168BD" height="71.8203" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="132" x="1141" y="839.09"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="37" x="1158" y="864.5587">Data
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="1195" y="864.5587">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="56" x="1200" y="864.5587">Market
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="1205" y="881.4689">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60"
+                      x="1151" y="897.9572">Software
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="1211" y="897.9572">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48"
+                      x="1215" y="897.9572">System
+                </text>
+            </a>
+        </g><!--entity ampi-->
+        <g id="elem_ampi">
+            <a href="./AMPIContainer.svg" target="_top" title="./AMPIContainer.svg" xlink:actuate="onRequest"
+               xlink:href="./AMPIContainer.svg" xlink:show="new" xlink:title="./AMPIContainer.svg"
+               xlink:type="simple">
+                <rect fill="#1168BD" height="90.6641" rx="2.5" ry="2.5" style="stroke:#8324DB;stroke-width:8.0;"
+                      width="183" x="1404.5" y="820.67"/>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="103" x="1414.5" y="846.1388">Anonymized
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="1517.5" y="846.1388">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="55" x="1522.5" y="846.1388">Master
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="56" x="1443" y="864.9825">Person
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="5" x="1499" y="864.9825">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                      textLength="45" x="1504" y="864.9825">Index
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="1494" y="881.8927">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60"
+                      x="1440" y="898.3809">Software
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4"
+                      x="1500" y="898.3809">&#160;
+                </text>
+                <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48"
+                      x="1504" y="898.3809">System
                 </text>
             </a>
         </g><!--entity researcher-->
         <g id="elem_researcher">
             <rect fill="#686868" height="136.3086" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;"
-                  width="188" x="48" y="1178.85"/>
-            <image height="48" width="48" x="118"
+                  width="188" x="279" y="1068.85"/>
+            <image height="48" width="48" x="349"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACE0lEQVR4Xu2YMW/CMBCF++P6Y5iZmVFHZmZmZmbmzMzMzOypvkqW0L3GOdvXEEt90idVjyb22ZfzJR+bzeajZ8ToDTFaORwO4/V6HW+323i/338YhmE8n8/jbrf7sv/fihi1nE6n8fl8jnMisP1+P9jraxGjlO12+8kql4odsfeqQYwSmLxn1ad0uVyagxCjhJqVtyL17H1LEMMLKRAldtLe34sYHhjQTqJFVC07hhcxPLDt0bJjeBHDA6UwWpwfdhwPYnhoqTxTqi2rYniwg0eotqSK4cEOHqFFA3g8Hnb8ZtWeB2J4oDmL1qIPcXQZpSjYMbyI4SWyEtXmP4jhpetWIhFxoB2Px+rVBzFKYOVaKlLt4fWKGDXU7ETryifEqIUJeXaDEtyS8xYxWuF9l9RgouwM0C5TeiMnnhCjN8ToDTE88H2HnCdVOISg5FMJ16brSC3aiNr0EiMHE849qPyW8p1JERTwN9fOVSt+L+2JxPgNbhrZOsyJQLw7IoYlsmUoEbvp+RQpxivRXWep2PW5nRAjQe7aG75DpJOdmyuAuQduSeXaDjFgLaufxPNg55gNgFK4Nk090GJArta/S1Mv/WKAvXgNmnrtFCP6w22U6G7tXLsKYKqcivEfwB+p+wDczwAs2Xl6NfUFQwx4dxNnlWvqxEhQd9cgDtXc254YrxA1LzM0U+8gN3FXAD0gRm98A/FFFW2vidUFAAAAAElFTkSuQmCC"
-                   y="1188.85"/>
+                   y="1078.85"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="90" x="97" y="1252.3188">Researcher
+                  textLength="90" x="328" y="1142.3188">Researcher
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="1269.2289">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="371"
+                  y="1159.2289">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="58"
-                  y="1285.7172">Uses
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="289"
+                  y="1175.7172">Uses
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="90"
-                  y="1285.7172">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="321"
+                  y="1175.7172">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="94"
-                  y="1285.7172">Website
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="325"
+                  y="1175.7172">Website
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="147"
-                  y="1285.7172">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="378"
+                  y="1175.7172">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="151"
-                  y="1285.7172">to
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="382"
+                  y="1175.7172">to
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="165"
-                  y="1285.7172">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="396"
+                  y="1175.7172">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="169"
-                  y="1285.7172">discover
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="400"
+                  y="1175.7172">discover
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="127"
-                  y="1302.2055">data
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="358"
+                  y="1192.2055">data
             </text>
         </g><!--entity reviewer-->
         <g id="elem_reviewer">
             <rect fill="#686868" height="155.1523" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;"
-                  width="220" x="32" y="1350.42"/>
-            <image height="48" width="48" x="118"
+                  width="220" x="699.5" y="1066.42"/>
+            <image height="48" width="48" x="785.5"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACE0lEQVR4Xu2YMW/CMBCF++P6Y5iZmVFHZmZmZmbmzMzMzOypvkqW0L3GOdvXEEt90idVjyb22ZfzJR+bzeajZ8ToDTFaORwO4/V6HW+323i/338YhmE8n8/jbrf7sv/fihi1nE6n8fl8jnMisP1+P9jraxGjlO12+8kql4odsfeqQYwSmLxn1ad0uVyagxCjhJqVtyL17H1LEMMLKRAldtLe34sYHhjQTqJFVC07hhcxPLDt0bJjeBHDA6UwWpwfdhwPYnhoqTxTqi2rYniwg0eotqSK4cEOHqFFA3g8Hnb8ZtWeB2J4oDmL1qIPcXQZpSjYMbyI4SWyEtXmP4jhpetWIhFxoB2Px+rVBzFKYOVaKlLt4fWKGDXU7ETryifEqIUJeXaDEtyS8xYxWuF9l9RgouwM0C5TeiMnnhCjN8ToDTE88H2HnCdVOISg5FMJ16brSC3aiNr0EiMHE849qPyW8p1JERTwN9fOVSt+L+2JxPgNbhrZOsyJQLw7IoYlsmUoEbvp+RQpxivRXWep2PW5nRAjQe7aG75DpJOdmyuAuQduSeXaDjFgLaufxPNg55gNgFK4Nk090GJArta/S1Mv/WKAvXgNmnrtFCP6w22U6G7tXLsKYKqcivEfwB+p+wDczwAs2Xl6NfUFQwx4dxNnlWvqxEhQd9cgDtXc254YrxA1LzM0U+8gN3FXAD0gRm98A/FFFW2vidUFAAAAAElFTkSuQmCC"
-                   y="1360.42"/>
+                   y="1076.42"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="58" x="82" y="1423.8888">Charge
-            </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="140" y="1423.8888">&#160;
+                  textLength="58" x="749.5" y="1139.8888">Charge
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="57" x="145" y="1423.8888">Review
+                  textLength="5" x="807.5" y="1139.8888">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="77" x="103.5" y="1442.7325">Specialist
+                  textLength="57" x="812.5" y="1139.8888">Review
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140"
-                  y="1459.6427">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
+                  textLength="77" x="771" y="1158.7325">Specialist
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="42"
-                  y="1476.1309">Uses
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="807.5"
+                  y="1175.6427">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="74"
-                  y="1476.1309">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32"
+                  x="709.5" y="1192.1309">Uses
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="78"
-                  y="1476.1309">Website
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="741.5"
+                  y="1192.1309">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="131"
-                  y="1476.1309">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53"
+                  x="745.5" y="1192.1309">Website
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135"
-                  y="1476.1309">to
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="798.5"
+                  y="1192.1309">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="149"
-                  y="1476.1309">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14"
+                  x="802.5" y="1192.1309">to
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="153"
-                  y="1476.1309">review
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="816.5"
+                  y="1192.1309">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="197"
-                  y="1476.1309">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44"
+                  x="820.5" y="1192.1309">review
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="201"
-                  y="1476.1309">usage
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="864.5"
+                  y="1192.1309">&#160;
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="99.5"
-                  y="1492.6192">and
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41"
+                  x="868.5" y="1192.1309">usage
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="125.5"
-                  y="1492.6192">&#160;
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="767"
+                  y="1208.6192">and
             </text>
-            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55"
-                  x="129.5" y="1492.6192">invoices
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="793"
+                  y="1208.6192">&#160;
+            </text>
+            <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="797"
+                  y="1208.6192">invoices
             </text>
         </g><!--entity research_db-->
         <g id="elem_research_db">
             <rect fill="#999999" height="57.6875" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="207"
-                  x="38.5" y="1540.16"/>
+                  x="1103.5" y="1079.16"/>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="66" x="48.5" y="1565.6288">External
+                  textLength="66" x="1113.5" y="1104.6288">External
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="114.5" y="1565.6288">&#160;
+                  textLength="5" x="1179.5" y="1104.6288">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="74" x="119.5" y="1565.6288">Research
+                  textLength="74" x="1184.5" y="1104.6288">Research
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="5" x="193.5" y="1565.6288">&#160;
+                  textLength="5" x="1258.5" y="1104.6288">&#160;
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="198.5" y="1565.6288">Data
+                  textLength="37" x="1263.5" y="1104.6288">Data
             </text>
             <text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing"
-                  textLength="35" x="124.5" y="1584.4725">Sink
+                  textLength="35" x="1189.5" y="1123.4725">Sink
             </text>
         </g><!--link clinician to website-->
         <g id="link_clinician_website">
-            <path d="M231.74,601.41 C250.7,612.17 269.86,624.81 286,639 C340.01,686.5 357.52,702.02 381,770 C388.7,792.28 376.15,962.24 389,982 C398.66,996.86 407.1537,1003.934 423.1837,1011.024 "
+            <path d="M121.86,467.39 C139.34,582.81 184.14,826.79 255,866 C396.53,944.32 582.9843,932.6349 699.7443,914.5449 "
                   fill="none" id="clinician-to-website" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="430.5,1014.26,424.3972,1008.2804,421.9702,1013.7676,430.5,1014.26"
+            <polygon fill="#666666" points="707.65,913.32,699.285,911.5802,700.2036,917.5095,707.65,913.32"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="322.5" y="644.6016">Uses
+                  textLength="30" x="358" y="862.6016">Uses
             </text>
         </g><!--link billers to website-->
         <g id="link_billers_website">
-            <path d="M211.44,744.27 C267.38,771.3 343.2,817.79 381,884 C391.83,902.98 376.69,963.95 389,982 C398.93,996.56 407.4054,1003.5277 423.3254,1010.6377 "
+            <path d="M177.59,291.24 C187.19,303.19 195.9,316.31 202,330 C245.97,428.62 179.45,735.85 255,813 C294.52,853.35 451.09,837.98 507,846 C573.99,855.61 641.2997,866.0711 699.8497,875.4011 "
                   fill="none" id="billers-to-website" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="430.63,1013.9,424.5487,1007.8985,422.102,1013.3769,430.63,1013.9"
+            <polygon fill="#666666" points="707.75,876.66,700.3218,872.4385,699.3776,878.3637,707.75,876.66"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="322.5" y="790.6016">Uses
+                  textLength="30" x="358" y="809.6016">Uses
             </text>
         </g><!--link hie to ingestion-->
         <g id="link_hie_ingestion">
-            <path d="M252.46,340.98 C264.22,346.53 275.65,352.85 286,360 C338.88,396.52 352.13,411.59 381,469 C462.9,631.85 480.1894,849.8411 483.7394,917.2711 "
+            <path d="M483.39,100.74 C545.88,110.84 619.62,134.69 660,190 C678.22,214.95 649.21,721.48 668,746 C684.12,767.04 702.6445,775.9952 728.2145,781.0952 "
                   fill="none" id="hie-to-ingestion" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="484.16,925.26,486.7353,917.1133,480.7436,917.4288,484.16,925.26"
+            <polygon fill="#666666" points="736.06,782.66,728.8013,778.1532,727.6277,784.0373,736.06,782.66"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="295" y="363.6016">Sends
+                  textLength="37" x="545" y="104.6016">Sends
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="332" y="363.6016">&#160;
+                  textLength="4" x="582" y="104.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="336" y="363.6016">data
+                  textLength="27" x="586" y="104.6016">data
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="363" y="363.6016">&#160;
+                  textLength="4" x="613" y="104.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="367" y="363.6016">to
+                  textLength="13" x="617" y="104.6016">to
             </text>
         </g><!--link pacs to ingestion-->
         <g id="link_pacs_ingestion">
-            <path d="M232.93,451.74 C251.63,460.37 270.37,471.05 286,484 C432.34,605.24 472.74,846.354 481.81,917.624 "
-                  fill="none" id="pacs-to-ingestion" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="482.82,925.56,484.786,917.2453,478.834,918.0027,482.82,925.56"
+            <path d="M471.86,217.5007 C537.91,228.0407 615.64,252.49 660,315 C673.86,334.53 653.39,727.02 668,746 C684.17,767 702.6945,775.9552 728.2645,781.0552 "
+                  fill="none" id="pacs-ingestion" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="463.96,216.24,471.3873,220.4632,472.3328,214.5381,463.96,216.24"
+                     style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="736.11,782.62,728.8513,778.1132,727.6777,783.9973,736.11,782.62"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="295" y="489.6016">Sends
+                  textLength="28" x="516" y="210.6016">pacs
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="332" y="489.6016">&#160;
+                  textLength="4" x="544" y="210.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="336" y="489.6016">data
+                  textLength="27" x="548" y="210.6016">gets
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="363" y="489.6016">&#160;
+                  textLength="4" x="575" y="210.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="367" y="489.6016">to
+                  textLength="49" x="579" y="210.6016">queries.
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="628" y="210.6016">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="27" x="632" y="210.6016">Pacs
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="37" x="526" y="224.7344">sends
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="563" y="224.7344">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="35" x="567" y="224.7344">query
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="602" y="224.7344">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="43" x="606" y="224.7344">results
             </text>
         </g><!--link fhir to ingestion-->
         <g id="link_fhir_ingestion">
-            <path d="M241.98,137.34 C291.9,156.4 348.59,187.19 381,235 C460.6,352.43 480.6059,814.8647 484.1159,917.2647 "
+            <path d="M472.96,444.4 C538.04,469.34 618.57,512.1 660,580 C669.62,595.76 656.52,731.54 668,746 C684.4,766.66 702.8195,775.5503 728.2195,780.7003 "
                   fill="none" id="fhir-to-ingestion" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="484.39,925.26,487.1142,917.1619,481.1177,917.3675,484.39,925.26"
+            <polygon fill="#666666" points="736.06,782.29,728.8157,777.7601,727.6234,783.6405,736.06,782.29"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="295" y="161.6016">Sends
+                  textLength="37" x="545" y="461.6016">Sends
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="332" y="161.6016">&#160;
+                  textLength="4" x="582" y="461.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="336" y="161.6016">data
+                  textLength="27" x="586" y="461.6016">data
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="363" y="161.6016">&#160;
+                  textLength="4" x="613" y="461.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="367" y="161.6016">to
+                  textLength="13" x="617" y="461.6016">to
             </text>
         </g><!--link files to ingestion-->
         <g id="link_files_ingestion">
-            <path d="M206.43,226.34 C232.22,231.9 261.62,240.59 286,254 C336.69,281.89 353.54,292.08 381,343 C437.63,448.02 474.3349,825.502 482.5749,917.312 "
+            <path d="M437.24,316.24 C506.79,329.17 614.69,361.56 660,441 C676.8,470.45 647.22,719.22 668,746 C684.25,766.94 702.7948,775.884 728.3448,780.984 "
                   fill="none" id="files-to-ingestion" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="483.29,925.28,485.5629,917.0439,479.5869,917.5802,483.29,925.28"
+            <polygon fill="#666666" points="736.19,782.55,728.932,778.0421,727.7575,783.926,736.19,782.55"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="295" y="255.6016">Sends
+                  textLength="37" x="545" y="335.6016">Sends
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="332" y="255.6016">&#160;
+                  textLength="4" x="582" y="335.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="336" y="255.6016">data
+                  textLength="27" x="586" y="335.6016">data
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="363" y="255.6016">&#160;
+                  textLength="4" x="613" y="335.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="367" y="255.6016">to
+                  textLength="13" x="617" y="335.6016">to
             </text>
         </g><!--link ingestion to datamarket-->
         <g id="link_ingestion_datamarket">
-            <path d="M544.05,964.88 C594.23,982.36 659.3553,1005.0583 709.5053,1022.5283 " fill="none"
+            <path d="M882.58,802.22 C956.22,818.79 1061.7452,842.5336 1132.8452,858.5336 " fill="none"
                   id="ingestion-to-datamarket" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="717.06,1025.16,710.4922,1019.6952,708.5184,1025.3613,717.06,1025.16"
+            <polygon fill="#666666" points="1140.65,860.29,1133.5038,855.6068,1132.1865,861.4604,1140.65,860.29"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="590" y="980.6016">Sends
+                  textLength="37" x="969" y="814.6016">Sends
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="627" y="980.6016">&#160;
+                  textLength="4" x="1006" y="814.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="631" y="980.6016">data
+                  textLength="27" x="1010" y="814.6016">data
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="658" y="980.6016">&#160;
+                  textLength="4" x="1037" y="814.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="662" y="980.6016">to
+                  textLength="13" x="1041" y="814.6016">to
             </text>
         </g><!--link ingestion to ampi-->
         <g id="link_ingestion_ampi">
-            <path d="M559.48,949.7 C656.9,956.02 822.0667,966.7428 927.9567,973.6028 " fill="none"
-                  id="ingestion-to-ampi" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="935.94,974.12,928.1507,970.6091,927.7628,976.5965,935.94,974.12"
+            <path d="M882.81,785.58 C984.52,786.2 1175.25,791.83 1334.5,822 C1357.35,826.33 1373.9778,830.2001 1396.6278,836.3301 "
+                  fill="none" id="ingestion-to-ampi" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="1404.35,838.42,1397.4115,833.4342,1395.8441,839.2259,1404.35,838.42"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="51" x="722.5" y="942.6016">creates/
+                  textLength="51" x="1154.5" y="776.6016">creates/
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="773.5" y="942.6016">&#160;
+                  textLength="4" x="1205.5" y="776.6016">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="50" x="777.5" y="942.6016">updates
+                  textLength="50" x="1209.5" y="776.6016">updates
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="73" x="707" y="956.7344">anonymous
+                  textLength="73" x="1139" y="790.7344">anonymous
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="780" y="956.7344">&#160;
+                  textLength="4" x="1212" y="790.7344">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="59" x="784" y="956.7344">identities
+                  textLength="59" x="1216" y="790.7344">identities
             </text>
         </g><!--link datamarket to ampi-->
         <g id="link_datamarket_ampi">
-            <path d="M834.42,1029.84 C864.49,1022.04 894.0862,1014.3583 927.8262,1005.6083 " fill="none"
-                  id="datamarket-to-ampi" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="935.57,1003.6,927.0731,1002.7043,928.5793,1008.5122,935.57,1003.6"
+            <path d="M1273.27,877.52 C1304,878.26 1341.15,878.52 1374.5,877 C1384.15,876.56 1386.2523,876.5165 1396.2823,875.7665 "
+                  fill="none" id="datamarket-to-ampi" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="1404.26,875.17,1396.0586,872.7749,1396.506,878.7582,1404.26,875.17"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="875" y="1009.6016">Uses
+                  textLength="30" x="1343.5" y="873.6016">Uses
             </text>
         </g><!--link website to datamarket-->
         <g id="link_website_datamarket">
-            <path d="M541.32,1032.03 C591.21,1034.81 656.9424,1038.4755 707.9724,1041.3155 " fill="none"
+            <path d="M911.32,888.41 C983.42,885.13 1070.3483,881.1739 1132.7183,878.3339 " fill="none"
                   id="website-to-datamarket" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="715.96,1041.76,708.1391,1038.3201,707.8057,1044.3108,715.96,1041.76"
+            <polygon fill="#666666" points="1140.71,877.97,1132.5818,875.337,1132.8547,881.3308,1140.71,877.97"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="617.5" y="1032.6016">Uses
+                  textLength="30" x="996.5" y="878.6016">Uses
             </text>
         </g><!--link researcher to website-->
         <g id="link_researcher_website">
-            <path d="M236.28,1203.46 C281.41,1180.85 335.53,1151.41 381,1120 C412.58,1098.18 439.5667,1073.6591 459.6767,1054.1591 "
-                  fill="none" id="researcher-to-website" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="465.42,1048.59,457.5883,1052.0053,461.7651,1056.3128,465.42,1048.59"
+            <path d="M467.48,1084.51 C550.78,1037.72 663.5446,974.3971 736.7346,933.2971 " fill="none"
+                  id="researcher-to-website" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="743.71,929.38,735.2657,930.6813,738.2035,935.9129,743.71,929.38"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="322.5" y="1116.6016">Uses
+                  textLength="30" x="572.5" y="975.6016">Uses
             </text>
         </g><!--link reviewer to website-->
         <g id="link_reviewer_website">
-            <path d="M252.23,1361.92 C264.16,1352.84 275.69,1343.14 286,1333 C378.64,1241.88 447.5873,1107.7766 472.3373,1056.0466 "
-                  fill="none" id="reviewer-to-website" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="475.79,1048.83,469.6311,1054.7518,475.0435,1057.3413,475.79,1048.83"
+            <path d="M809.5,1065.96 C809.5,1020.34 809.5,972.91 809.5,937.3 " fill="none" id="reviewer-to-website"
+                  style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="809.5,929.3,806.5,937.3,812.5,937.3,809.5,929.3"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="322.5" y="1214.6016">Uses
+                  textLength="30" x="783.5" y="1002.2716">Uses
             </text>
         </g><!--link datamarket to research_db-->
         <g id="link_datamarket_research_db">
-            <path d="M759.38,1064.89 C705.13,1137.29 507.08,1389.54 286,1523 C273.61,1530.48 267.323,1533.9727 253.403,1539.4027 "
-                  fill="none" id="datamarket-to-research_db" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="245.95,1542.31,254.4933,1542.1976,252.3128,1536.6078,245.95,1542.31"
+            <path d="M1207,911.31 C1207,957.54 1207,1028.51 1207,1070.96 " fill="none" id="datamarket-to-research_db"
+                  style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="1207,1078.96,1210,1070.96,1204,1070.96,1207,1078.96"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="37" x="443.5" y="1298.6016">Sends
+                  textLength="37" x="1153.5" y="999.6316">Sends
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="480.5" y="1298.6016">&#160;
+                  textLength="4" x="1190.5" y="999.6316">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="27" x="484.5" y="1298.6016">data
+                  textLength="27" x="1194.5" y="999.6316">data
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="4" x="511.5" y="1298.6016">&#160;
+                  textLength="4" x="1221.5" y="999.6316">&#160;
             </text>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="13" x="515.5" y="1298.6016">to
+                  textLength="13" x="1225.5" y="999.6316">to
             </text>
         </g><!--link support to website-->
         <g id="link_support_website">
-            <path d="M224.48,1028.24 C288.2,1028.42 367.01,1028.6569 422.54,1028.8169 " fill="none"
-                  id="support-to-website" style="stroke:#666666;stroke-width:1.0;"/>
-            <polygon fill="#666666" points="430.54,1028.84,422.5487,1025.817,422.5314,1031.8169,430.54,1028.84"
+            <path d="M455.44,697.42 C520.79,703.19 609.64,722.34 660,781 C676.95,800.74 651.83,818.61 668,839 C678.47,852.21 685.4187,858.6443 700.6687,866.1843 "
+                  fill="none" id="support-to-website" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="707.84,869.73,701.9983,863.4951,699.339,868.8736,707.84,869.73"
                      style="stroke:#666666;stroke-width:1.0;"/>
             <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
-                  textLength="30" x="322.5" y="1025.6016">Uses
+                  textLength="30" x="572.5" y="704.6016">Uses
             </text>
-        </g>
+        </g><!--link Tessellate to security-->
+        <g id="link_Tessellate_security">
+            <path d="M962.6904,671.9011 C963.2003,671.7567 963.7106,671.6122 964.2214,671.4675 C965.2429,671.1782 966.266,670.8885 967.2907,670.5983 C983.6856,665.955 1000.4734,661.2005 1017.1763,656.4702 C1050.5819,647.0094 1075.9502,639.8248 1104.8527,631.6398 "
+                  fill="none" id="Tessellate-to-security" style="stroke:#666666;stroke-width:1.0;"/>
+            <polygon fill="#666666" points="1112.55,629.46,1104.0353,628.7533,1105.6701,634.5263,1112.55,629.46"
+                     style="stroke:#666666;stroke-width:1.0;"/>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="17" x="950.5" y="583.6016">All
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="967.5" y="583.6016">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="50" x="971.5" y="583.6016">Services
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="1021.5" y="583.6016">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="47" x="1025.5" y="583.6016">retrieve
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="43" x="961" y="597.7344">tokens
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="1004" y="597.7344">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="33" x="1008" y="597.7344">from.
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="1041" y="597.7344">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="17" x="1045" y="597.7344">All
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="50" x="960" y="611.8672">services
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="1010" y="611.8672">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="49" x="1014" y="611.8672">validate
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="46" x="963.5" y="626">Tokens
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="4" x="1009.5" y="626">&#160;
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing"
+                  textLength="46" x="1013.5" y="626">against
+            </text>
+            <text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="37" x="993" y="640.1328">[REST]
+            </text>
+        </g><!--link clinician to fhir--><!--link billers to pacs--><!--link billers to hie--><!--link billers to files--><!--link researcher to reviewer--><!--link reviewer to research_db-->
         <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
-              textLength="51" x="1017" y="1651.5352">Legend
+              textLength="51" x="1525.5" y="1275.5352">Legend
         </text>
-        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1068"
-              y="1651.5352">&#160;
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1576.5"
+              y="1275.5352">&#160;
         </text>
-        <rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1017" y="1654.4883"/>
-        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1021"
-              y="1668.0234">person
+        <rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1525.5"
+              y="1278.4883"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1529.5"
+              y="1292.0234">person
         </text>
-        <rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1017" y="1670.9766"/>
-        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1021"
-              y="1684.5117">system
+        <rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1525.5"
+              y="1294.9766"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1529.5"
+              y="1308.5117">system
         </text>
-        <rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1017" y="1687.4648"/>
-        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1021"
-              y="1701">external person
+        <rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1525.5"
+              y="1311.4648"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1529.5"
+              y="1325">external person
         </text>
-        <rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1017" y="1703.9531"/>
-        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1021"
-              y="1717.4883">external system
+        <rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="117" x="1525.5"
+              y="1327.9531"/>
+        <text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1529.5"
+              y="1341.4883">external system
         </text>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1638" y2="1638"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1654.4883" y2="1654.4883"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1670.9766" y2="1670.9766"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1687.4648" y2="1687.4648"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1703.9531" y2="1703.9531"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1134" y1="1720.4414" y2="1720.4414"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1017" x2="1017" y1="1638" y2="1720.4414"/>
-        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1134" x2="1134" y1="1638"
-              y2="1720.4414"/><!--SRC=[dLLBRnen4BxdLqnNFH29XghDeJtaG0Y4bPA2W2Zg2PdTWHrXx9Nj9P0g_xtZVML3IAC62M5xPhvvVJDy8XN9B4Ouw_JEvpsj7ExSMPfjvCd9JVVtw6usl-aFPlD9U3sSjKwhj_jmDcJ1TV_N5J_ofnl7VOaRL6ucLgr0wWSqDxX5UKDg7RJXyqAR64rFIsqkWX_Vlvt7Yw1TliuIYjOAhML9S7g8bT0g-HVOroKkyUTo-HRSIP-JCgaXY_DBdQbOc7qhqJOb9sGRWlwEnKf869PlCDrRXvlWzCy9y6UCncerPxLM94bHH4AnMQywSq311BU43ntewOsF6sBX1Bi-C5-Gb7nZ_ThLPVuKj4i42oYC8hMofNKHIcwT43OjXs7VUnwYa2w1K2srsGX7Ma5_5oL2hV0rH2eYxttSxKszxPWYbnc4heaIsh9N42hESyWujGAigiKXr38Xmn23OJY1APgjJuAlmZeeGee48uU-z3f58pXtSdkOeDMPYT1MHg-1IQ8FSb3y3cRZDbnTijxJyKuo8jSiIi9HteVY0k78jw_HW9RDqbGRnqhJuXGy7osu1E415vQSBripfjgHOqQX5CvtOLQTuKkfPy7pLFBNOGoa8CrCAX5y5PWsqLei-CQSMTkAMCzEMbnxjBxUZ1tcPnWplEyfqzfRNGHddK9I2Vom2b9eyd7rO-74YZb_C7kdXxuyDpV2hD7NueelS9lV6exyQ_7uKITYanB3TvLM-mqzSabkcHfeocumCMBSDJnsRyVXHtsLVMDtTOlEI3V0wsw5e__oyVGMvqn9i-RsgAatCYkXw34VdoCxfB95q-1hCJrtbkVYliW6d8QORAHvIDvO9oPV6JbEBn5cXL0i4PYco8j9adN7K0ipoAnW2p_mfBQQU2HVps8LwpnU74qrPy-qA1YNQeAokIAV- -93O1KlhtVWKMc-uvh3C4KLspn_3hrKAhROUrh5WdfNgzWoxwarv2_6vntTSWeYWqm-su4iZVs1g-x7GcSMAEQ_2t9KLw09NvetwbCNxKKK3OKckuvM-9aqHyLDt9VTFvPglLDVOVq5]-->
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1262" y2="1262"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1278.4883" y2="1278.4883"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1294.9766" y2="1294.9766"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1311.4648" y2="1311.4648"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1327.9531" y2="1327.9531"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1642.5" y1="1344.4414" y2="1344.4414"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1525.5" x2="1525.5" y1="1262" y2="1344.4414"/>
+        <line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1642.5" x2="1642.5" y1="1262"
+              y2="1344.4414"/><!--SRC=[bLNTRo8t47_dhvYkxe585Ahs7jgJxe4GE5OY1S7UdVg4pEx0MXXxQtj9k2h_UyVxXO5DJa6AiXxFnszcVZF-XSjOv0b2Vp3wk1ufQV7PzhFy83gTsV2V-TTeFHjFelKo_3ADkdUrx7iOJUdYo_Zl1nBIRvWaOu47b3PYksuWr1Fg6HvHpBZS1ptui54wGJrIGkdFmPz__FunsGIzIXgbFDvBD8PkWhjhNodVfMyv-ssBM_nhkttDNMTCIUbCSuFhUvNBXEbJDrKcuvQ97WJZPxgMJC2qai7gP2mUWhl_Ea2_1MgZv9hKkh7WaiUSIJ8RrTy4A5ZYaUFJ04Rgu713mYoZq5Vc6ou4dKY_2NLVY89UvS40CYsvt9dAkeHIMASSVSjfE7QHfyY4JI6KMwKFp78bOVmSfqpkyDP5nc8NVJ4ShPpjWiSsrmX37QVyI561oQJ88QVKIcTrBQvTRLEkoSLa6YvXXVheag0ZCnPAI34Zpw4hlSfGCygTsnCiqQXSnsXgerl7NA03EId_Jw953nxkIU-blPFaaMeMf-6yw4DvW73kskSre6loB5FQajAg_0hEdmPiYl246yFjPTcw1kDS4t9I7kOsLPh_A0iJgJrA28t9KG_W6nEScgwAAgpKrZwvz9lY-Kaso2EYA0h1hElh-G2_Lfe67FK5_LbCW4l8Sfq91EUPc1ZlsOPEHCEzgRdg0QTsed58oNbOVCE2t3kQ4Dsk8VO-E3-VW_wWrArLtKPWNA8kTeARFSjsD5XN0txNH6-oSoD0eH_e7mnZwhY1YBk6dv5wQ9tsWUazsjhciJYz2TNfbMhlXja2WHqoxheibJmT-0yg-IEn6NL58E9oWizluXa-Bi9t8tcvRbn5mmjEzBcwZVm99jejR9bu6CusuVnTM5vU6p1TpPI_Afivc-iTazL8j2pCsXQrDvpbglXgQ0byBtC5go3X9bQq4LxPdRhOZuMVKShq3g7ScB3AaBQmuCQsUItD83UCBDnsu_AeEB7nTl7KMDV9fZNLWfMhic1KgYKA_pquTyr181LttopyrjjYeVjZkg9McY9_WavAzzofbKlRrtCIs26jhNzf-N0qVLWuaIdidUn4YPjSs3fKkQtVYbLebIltPshU_SNO_aItcgzO8v7J323F4lT1NN43ft83FA6tarlULCXtNvbxzMkAUe72K_3Przg1CwbQhts_b-neIxLvO5fz-SlUVrE4A5v2HqcAOQcRHqTSUbiCRBKwzC6fc5hbMBupM3u_LBmT3RYZVh0ShoAADMEdzODFJDVwMjpmqJ7eMaXqlD4h655B_NBMbJlVrPNq2dNN-Hy0]-->
     </g>
-    <foreignObject x="500" y="200" width="600" height="600">
+    <foreignObject x="690" y="20" width="900" height="500">
         <p xmlns="http://www.w3.org/1999/xhtml" style="font-size: larger">The tessellate medical research integration
             platform is composed of 4 main pieces:
             <ul>

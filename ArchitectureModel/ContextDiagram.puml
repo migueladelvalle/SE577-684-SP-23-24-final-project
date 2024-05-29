@@ -21,12 +21,15 @@ Enterprise_Boundary(hospital, "External Hospital System"){
 Enterprise_Boundary(ResearchIO, "Research IO"){
 
     Person(support, "Support", "Supports the website")
+    System(security, "Authorization Token Issuer/ Validator", "Software System")
 
     System_Boundary(Tessellate, "Tessellate - Systems highlighted in purple are clickable links"){
-        System(ingestion, "Ingest Platform",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
-        System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
-        System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
-        System(website, "Tessellate.io",$link="./TessellateIOContainer.puml", $tags="lowerLevelLink")
+        System(ingestion, "Ingest Platform","Software System",$link="./IngestPlatformContainer.puml", $tags="lowerLevelLink")
+        Boundary(data, "Data Access Tier"){
+            System(datamarket, "Data Market","Software System",$link="./DataMarketContainer.puml", $tags="lowerLevelLink")
+                    System(ampi, "Anonymized Master Person Index","Software System",$link="./AMPIContainer.puml", $tags="lowerLevelLink")
+        }
+        System(website, "Tessellate.io","Software System: Frontend",$link="./TessellateIOContainer.puml", $tags="lowerLevelLink")
     }
 }
 
@@ -39,7 +42,7 @@ Enterprise_Boundary(research, "External Research Organization"){
 Rel(clinician, website, "Uses")
 Rel(billers, website, "Uses")
 Rel(hie, ingestion, "Sends data to")
-Rel(pacs, ingestion, "Sends data to")
+BiRel(pacs, ingestion, "pacs gets queries. Pacs sends query results")
 Rel(fhir, ingestion, "Sends data to")
 Rel(files, ingestion, "Sends data to")
 Rel(ingestion, datamarket, "Sends data to")
@@ -50,5 +53,12 @@ Rel(researcher, website, "Uses")
 Rel(reviewer, website, "Uses")
 Rel(datamarket, research_db, "Sends data to")
 Rel(support, website, "Uses")
+Rel(Tessellate, security, "All Services retrieve tokens from. All services validate Tokens against","REST")
+Lay_D(clinician, fhir)
+Lay_D(billers, pacs)
+Lay_D(billers,hie)
+Lay_D(billers, files)
+Lay_D(researcher, reviewer)
+Lay_D(reviewer, research_db)
 
 @enduml

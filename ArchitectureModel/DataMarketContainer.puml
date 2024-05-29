@@ -15,29 +15,37 @@ System(ampi, "Anonymized Master Person Index",$link="./AMPIContainer.puml", $tag
 System(website, "Tessellate.io",$link="./TessellateIOContainer.puml", $tags="lowerLevelLink")
 System_Ext(research_db, "External Research Data Sink")
 
+System(security, "Authorization Token Issuer/ Validator", "Software System")
+
 Container_Boundary(datamarket, "Data Market - Systems highlighted in purple are clickable links", "The boundary of the system"){
-    ContainerDb(datawarehouse, "Data Warehouse", "Stores data")
-    Container_Boundary(input, "Input Systems", "Systems that input data into the system"){
-        Container(search, "Search REST API", "Searches for documents and images")
-            Container(proxy, "router", "Proxies requests to the correct service")
+    Container(datawarehouse, "Data Warehouse","Container: Various Databases","Stores anonymized medical data")
+    Container_Boundary(input, "Throughput Systems", "Systems that input data into the system"){
+        Container(search, "Data Market Query Service","Container: REST Query API components","Searches for documents and images")
+            Container(proxy, "router", "Container: Rule-based7 routing components")
     }
-    Container(gateway, API Gateway, "API Gateway")
-    ContainerDb(elk, "ELK Stack", "Stores logs")
-    Container(slack, "Slack", "Chat Ops")
-    ContainerDb(purchase_db, "Purchase Database", "Stores purchase data")
+    Container(gateway, API Gateway,"Container: API Gateway Components")
+    ContainerDb(elk, "Application Logs","Elk", )
+    ContainerDb(purchase_db, "Purchase Records", "Relational Database","Records purchases")
 }
+System_Ext(slack, "Slack", "Chat Ops")
+Container(kibana, "Kibana", "Handles logs and monitoring")
 
 Rel(gateway, search, "Uses")
 Rel(search, ampi, "Uses")
 
-Rel(ingestion, proxy, " ")
+Rel(ingestion, proxy, "internal: service to service")
 
 Rel(proxy, research_db, "Sends Data to")
-Rel(website, gateway, "Uses")
+Rel(website, gateway, "Public route: REST")
 
 Rel(input, elk, "Logs to")
 Rel(input, purchase_db, "record purchases to")
 Rel(input, datawarehouse, "writes/ gets data to/from")
 Rel(slack, elk, "Uses")
+Rel(datamarket, security, "Uses")
+Lay_R(ingestion, website)
+Lay_R(kibana, slack)
+Rel_U(kibana, elk, "Visualizes")
+
 
 @enduml

@@ -16,9 +16,14 @@ System(datamarket, "Data Market",$link="./DataMarketContainer.puml", $tags="lowe
 Person(support, "Support", "Supports the website")
 
 Container_Boundary(website, "Tessellate.io - Systems highlighted in purple are clickable links", "The boundary of the system"){
-    Container(billing, "Invoicing UI", "Handles billing and invoicing")
-    Container(query, "Data Discovery, purchase, and annotation UI", "Handles data discovery")
-    Container(logs, "Kibana", "Handles logs and monitoring")
+    Container(billing, "Invoicing UI","public website", "Handles billing and invoicing")
+    Container(query, "Data Discovery, purchase, and annotation UI", "public website","Handles data discovery")
+
+    Boundary(monitor,"Monitoring Boundary"){
+        Container(logs, "Kibana", "Internal: Data Visualization Tool","Handles logs and monitoring")
+        System_Ext(slack, "Slack", "Chat Ops")
+    }
+
 }
 
 Rel(clinician, query, "Uses")
@@ -29,7 +34,8 @@ Rel(query, datamarket, "Uses")
 Rel(billing, datamarket, "Uses")
 Rel(logs, datamarket, "Uses")
 Rel(support, logs, "Uses")
-
+Rel(support, slack, "Uses")
+Rel(slack, datamarket, "Uses")
 
 
 @enduml

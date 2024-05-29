@@ -8,9 +8,53 @@ lower levels, which navigate back to the context diagram.
 
 ![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/ContextDiagram.svg)
 
+### Context
+
+<p xmlns="http://www.w3.org/1999/xhtml" style="font-size: larger">The tessellate medical research integration
+            platform is composed of 4 main pieces:
+            <ul>
+                <li>Tessellate.io web platform</li>
+                <ol>
+                    <li>Used to query for data</li>
+                    <li>Used by clinicians to annotate data</li>
+                    <li>Used by Medical Billers to review earnings from the data they uploaded.</li>
+                    <li>Used by Researchers to discover medical data</li>
+                    <li>Used by Charge Review specialists to review invoices and make payments.</li>
+                    <li>Support analysts to troubleshoot and review logs.</li>
+                </ol>
+                <li>Ingest Platform</li>
+                <ol>
+                    <li>Used to ingest data from various sources and de-identify the data.</li>
+                </ol>
+                <li>Anonymous Master Person Index</li>
+                <ol>
+                    <li>Creates an anonymized identity that can not be traced back to actual patients</li>
+                    <li>Maintains a reference to clinical documents and medical data for anonymized identities to enable
+                        viewing the progress of an anonymized patient's condition
+                    </li>
+                </ol>
+                <li>Data Market</li>
+                <ol>
+                    <li>A set of systems that facilitate the buying, selling, and exchange of data</li>
+                    <li>Used by Data Market to aggregate data associated with an identity.</li>
+                </ol>
+            </ul>
+        </p>
+
 ## Ingest Platform Container Diagram
 
 ![not found](./ArchitectureModel/IngestPlatformContainer.svg)
+
+### Context
+
+<p xmlns="http://www.w3.org/1999/xhtml">The ingest data platform ingests data from various sources, deidentifies
+            it, and passes it to the data market. When data is received in the ETL Processor, it sends the records to
+            the Anonymous Master Person Index to:
+            <ul>
+                <li>Find an identity to which to associate the document.</li>
+                <li>If an identity doesn't exist, attempt to create one using the data in the document.</li>
+            </ul>
+        </p>
 
 ### Key Quality attributes
 
@@ -31,6 +75,17 @@ lower levels, which navigate back to the context diagram.
 
 ![not found](./ArchitectureModel/AMPIContainer.svg)
 
+### Context
+
+<p xmlns="http://www.w3.org/1999/xhtml">The Anonymized Master Person Index (AMPI) creates a proxy identity for a
+            patient that can't be traced back to actual patients. This enables researchers to view a patient's condition
+            over time. It creates a cross-reference between a hospital identifier, such as a medical record number, and
+            a unique ID generated for display purposes on the Tessellate side. The hospital identifier is only viewable
+            by clinicians. AMPI supports merging identities for patients in multiple hospital systems with disparate
+            identifiers. It leverages a command query architecture style for better horizontal scalability and domain
+            separation (when required).
+        </p>
+
 ### Key Quality attributes
 
 - Debuggability and Testability—This system allows easy test automation using something like Newman to test the input/
@@ -50,6 +105,18 @@ lower levels, which navigate back to the context diagram.
 
 ![not found](./ArchitectureModel/DataMarketContainer.svg)
 
+### Context
+
+<foreignObject x="20" y="550" width="500" height="200">
+        <p xmlns="http://www.w3.org/1999/xhtml">The Data Market facilitates the buying, selling, and exchange of data.
+            The ingest platform brings in anonymized data. The router will send data to the warehouse and stream data to
+            external sinks (i.e., those who subscribe to a data set). All data sent through a sink is logged as a
+            purchase. The tesselate.io domain uses the search REST API to find data. At first, metadata and a preview of
+            a dataset are returned. The user can also purchase the entire dataset. All input systems log to Elk, which
+            Slack uses for alerts.
+        </p>
+    </foreignObject>
+
 ### Key Quality attributes
 
 - Debuggability and Testability—The entry point for all operations is throughout input systems, the router, and Search
@@ -68,15 +135,3 @@ lower levels, which navigate back to the context diagram.
 ## Tessellate.IO Container Diagram
 
 ![not found](./ArchitectureModel/TessellateIOContainer.svg)
-
-```plantuml
-@startuml
-actor User
-User -> Website : Interacts
-Website -> Server : Processes Request
-Server -> Database : Retrieves Data
-Database --> Server : Sends Data
-Server --> Website : Sends Response
-Website --> User : Displays Response
-@enduml
-```
