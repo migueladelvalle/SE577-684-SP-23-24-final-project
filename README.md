@@ -68,3 +68,15 @@ lower levels, which navigate back to the context diagram.
 ## Tessellate.IO Container Diagram
 
 ![not found](./ArchitectureModel/TessellateIOContainer.svg)
+
+```plantuml
+@startuml
+actor User
+User -> Website : Interacts
+Website -> Server : Processes Request
+Server -> Database : Retrieves Data
+Database --> Server : Sends Data
+Server --> Website : Sends Response
+Website --> User : Displays Response
+@enduml
+```
