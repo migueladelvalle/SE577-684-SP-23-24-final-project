@@ -43,7 +43,7 @@ lower levels, which navigate back to the context diagram.
 
 ## Ingest Platform Container Diagram
 
-![not found](./ArchitectureModel/IngestPlatformContainer.svg)
+![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/IngestPlatformContainer.svg)
 
 ### Context
 
@@ -73,7 +73,7 @@ lower levels, which navigate back to the context diagram.
 
 ## Anonymous Master Person Index Diagram
 
-![not found](./ArchitectureModel/AMPIContainer.svg)
+![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/AMPIContainer.svg)
 
 ### Context
 
@@ -103,7 +103,7 @@ lower levels, which navigate back to the context diagram.
 
 ## Data Market Container Diagram
 
-![not found](./ArchitectureModel/DataMarketContainer.svg)
+![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/DataMarketContainer.svg)
 
 ### Context
 
@@ -134,4 +134,27 @@ lower levels, which navigate back to the context diagram.
 
 ## Tessellate.IO Container Diagram
 
-![not found](./ArchitectureModel/TessellateIOContainer.svg)
+![not found](https://raw.githubusercontent.com/migueladelvalle/SE577-684-SP-23-24-final-project/main/ArchitectureModel/TessellateIOContainer.svg)
+
+### Context
+
+<p xmlns="http://www.w3.org/1999/xhtml">The Tesselate.io domain is composed of several UI components. The Data
+            Discovery, Purchase, and Annotation UI allows clinicians to search for and annotate data, and researchers
+            can discover and purchase data sets. The invoicing UI will enable users to review usage-based charges or
+            earnings if they are data providers. Kibana is an open-source data visualization and exploration platform
+            primarily used to analyze log data.
+</p>
+
+### Key Quality attributes
+
+- Debuggability and Testability—The UI components are intended to be simple and easy to test. The UI components are
+  designed to be stateless and use a REST API to communicate with the backend. The backend logs all requests and
+  responses to ELK, which can be used to troubleshoot issues.
+- Extensibility and portability- The UI will adopt a REST Architecture style. The backend will adopt a HATEAOS style
+  REST API. This will allow for lower degrees of coupling making it easier to add new features and endpoints without
+  breaking existing clients. The UI will be
+  designed to be responsive and work on multiple devices.
+- Security—The system is secure at multiple locations. The API Gateway in the Data Market validates access from
+  Tessellate.io. The Tokens
+  issued to clients using Tessellate.IO are encrypted, and the API Gateway can decrypt them and validate their
+  signatures and claims.
