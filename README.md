@@ -1,5 +1,9 @@
 # C4 Architecture Model
 
+## Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/BMbij9Xe-PI/0.jpg)](https://www.youtube.com/watch?v=BMbij9Xe-PI)
+
 ## Context Diagram
 
 The diagram below can be clicked to redirect to an interactive version of the diagram. The interactive version has
